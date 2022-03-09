@@ -23,7 +23,7 @@ const insertLeft = (matrix, result) => {
   return result;
 };
 
-const insertRigth = (matrix, result) => {
+const insertRight = (matrix, result) => {
   for (let i = 0; i < matrix.length; i++) {
     let char = matrix[i].pop();
     result += char;
@@ -39,7 +39,7 @@ const spiralTraversal = function (matrix) {
   while (true) {
     result = insertTop(matrix, result);
     if (matrix.length === 0) break;
-    result = insertRigth(matrix, result);
+    result = insertRight(matrix, result);
 
     result = insertBottom(matrix, result);
 
