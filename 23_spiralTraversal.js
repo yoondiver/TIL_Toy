@@ -43,7 +43,7 @@ const spiralTraversal = function (matrix) {
 
     result = insertBottom(matrix, result);
 
-    if (matrix.length === 0) break;
+    if (matrix.length === 1) break;
 
     result = insertLeft(matrix, result);
   }
