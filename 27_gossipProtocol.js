@@ -9,7 +9,6 @@ const createMatrix = (village) => {
 };
 
 const gossipProtocol = function (village, row, col) {
-  // TODO: 여기에 코드를 작성합니다.
   // bfs 구현을 위해 큐를 선언
   // enQueue, deQueue 시마다 인덱싱을 다시하지 않기 위해
   // 순환 큐(circular queue)로 구현
