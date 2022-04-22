@@ -8,6 +8,13 @@ const LCS = function (str1, str2) {
 
   const compareOneByOne = (left, right) => {
     if (memo[left][right] !== -1) return memo[left][right];
+
+    if (left === str1.length || right === str2.length) return 0;
+
+    if (str1[left] === str2[right]) {
+      memo[left][right] = 1 + compareOneByOne(left + 1, right + 1);
+      return memo[left][right];
+    }
   };
   return compareOneByOne;
 };
