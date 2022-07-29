@@ -27,7 +27,7 @@ function FloydWarshall(num, edges) {
   const matrix = createGraphByMatrix(num, edges);
   // dist는 두 정점간의 최단 거리를 저장하는 인접 행렬
   // dist[src][dst]는 정점 src로부터 정점 dst까지의 최단 거리
-  // 처음에는 최초의 간선말고는 정보가 없으므로 그래프와 똑같이 초기화한다.
+  // 처음에는 최초의 간선말고는 정보가 없으므로 그래프와 똑같이 초기화
   const dist = createGraphByMatrix(num, edges);
   for (let stopover = 1; stopover <= num; stopover++) {
     for (let src = 1; src <= num; src++) {
