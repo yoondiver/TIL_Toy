@@ -27,4 +27,6 @@ function BellmanFord(num, edges, start) {
       return true;
     }
   });
+
+  return hasNegCycle ? [] : dist.slice(1);
 }
