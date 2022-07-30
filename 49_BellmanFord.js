@@ -19,4 +19,12 @@ function BellmanFord(num, edges, start) {
       }
     });
   }
+  // 음의 사이클이 존재하는지 확인하고
+  // 존재하면 빈 배열을 리턴한다.
+  const hasNegCycle = edges.some((e) => {
+    const [src, dst, weight] = e;
+    if (dist[src] !== INF && dist[src] + weight < dist[dst]) {
+      return true;
+    }
+  });
 }
