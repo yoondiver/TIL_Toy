@@ -8,4 +8,9 @@ function findAbbreviation(strA, strB) {
   for (let i = 0; i < N; i++) memo.push(Array(N).fill(-1));
 
   const isLower = (chr) => chr.toUpperCase() !== chr;
+
+  const aux = (leftIdx, rightIdx) => {
+    // 이미 계산한 적이 있는 경우, 저장된 값을 사용한다.
+    if (memo[leftIdx][rightIdx] !== -1) return memo[leftIdx][rightIdx];
+  };
 }
