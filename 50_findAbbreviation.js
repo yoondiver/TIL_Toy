@@ -17,5 +17,14 @@ function findAbbreviation(strA, strB) {
     if (rightIdx === strB.length)
       return strA.substring(leftIdx).split("").every(isLower);
     else if (leftIdx === strA.length) return false;
+
+    // recursive case
+    if (isLower(strA[leftIdx])) {
+      if (strA[leftIdx].toUpperCase() !== strB[rightIdx]) {
+        // 중복 계산을 피하기 위해 계산의 결과를 저장한다.
+        memo[leftIdx + 1][rightIdx] = aux(leftIdx + 1, rightIdx);
+        return memo[leftIdx + 1][rightIdx];
+      }
+    }
   };
 }
