@@ -12,5 +12,10 @@ function findAbbreviation(strA, strB) {
   const aux = (leftIdx, rightIdx) => {
     // 이미 계산한 적이 있는 경우, 저장된 값을 사용한다.
     if (memo[leftIdx][rightIdx] !== -1) return memo[leftIdx][rightIdx];
+
+    // base case
+    if (rightIdx === strB.length)
+      return strA.substring(leftIdx).split("").every(isLower);
+    else if (leftIdx === strA.length) return false;
   };
 }
