@@ -6,4 +6,6 @@ function findAbbreviation(strA, strB) {
   // 계산되지 않은 상태를 -1로 초기화한다.
   const memo = [];
   for (let i = 0; i < N; i++) memo.push(Array(N).fill(-1));
+
+  const isLower = (chr) => chr.toUpperCase() !== chr;
 }
