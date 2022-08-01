@@ -25,6 +25,9 @@ function findAbbreviation(strA, strB) {
         memo[leftIdx + 1][rightIdx] = aux(leftIdx + 1, rightIdx);
         return memo[leftIdx + 1][rightIdx];
       }
+      memo[leftIdx + 1][rightIdx + 1] = aux(leftIdx + 1, rightIdx + 1);
+      memo[leftIdx + 1][rightIdx] = aux(leftIdx + 1, rightIdx);
+      return memo[leftIdx + 1][rightIdx + 1] || memo[leftIdx + 1][rightIdx];
     }
   };
 }
