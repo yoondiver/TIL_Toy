@@ -34,4 +34,6 @@ function findAbbreviation(strA, strB) {
       return memo[leftIdx + 1][rightIdx + 1];
     }
   };
+
+  return aux(0, 0);
 }
