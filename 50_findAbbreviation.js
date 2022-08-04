@@ -108,3 +108,8 @@ function findAbbreviation(strA, strB) {
 //       else return (memo[problem] = func(...args));
 //     };
 //   };
+
+//   // 첫 호출의 함수와 재귀 호출이 함수가 달라질 수 있으므로 재할당이 필요하다.
+//   aux = memoize(aux);
+//   return aux(0, 0);
+// }
