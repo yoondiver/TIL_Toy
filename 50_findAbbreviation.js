@@ -80,3 +80,9 @@ function findAbbreviation(strA, strB) {
 // memoization with higher order function
 // function findAbbreviation(strA, strB) {
 //   const isLower = (chr) => chr.toUpperCase() !== chr;
+
+//   let aux = (leftIdx, rightIdx) => {
+//     // base case
+//     if (rightIdx === strB.length)
+//       return strA.substring(leftIdx).split('').every(isLower);
+//     else if (leftIdx === strA.length) return false;
