@@ -86,3 +86,14 @@ function findAbbreviation(strA, strB) {
 //     if (rightIdx === strB.length)
 //       return strA.substring(leftIdx).split('').every(isLower);
 //     else if (leftIdx === strA.length) return false;
+
+//     // recursive case
+//     if (isLower(strA[leftIdx])) {
+//       if (strA[leftIdx].toUpperCase() !== strB[rightIdx])
+//         return aux(leftIdx + 1, rightIdx);
+//       return aux(leftIdx + 1, rightIdx + 1) || aux(leftIdx + 1, rightIdx);
+//     } else {
+//       if (strA[leftIdx] !== strB[rightIdx]) return false;
+//       return aux(leftIdx + 1, rightIdx + 1);
+//     }
+//   };
