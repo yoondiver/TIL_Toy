@@ -97,3 +97,14 @@ function findAbbreviation(strA, strB) {
 //       return aux(leftIdx + 1, rightIdx + 1);
 //     }
 //   };
+
+//   const memoize = (func) => {
+//     const memo = {};
+//     // 매개변수를 통해 계산(함수 호출)을 구분한다.
+//     return (...args) => {
+//       const problem = args.join('-');
+//       if (problem in memo) return memo[problem];
+//       // 할당과 리턴을 동시에 할 수 있음
+//       else return (memo[problem] = func(...args));
+//     };
+//   };
