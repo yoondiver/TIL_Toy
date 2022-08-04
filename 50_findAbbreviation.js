@@ -76,3 +76,7 @@ function findAbbreviation(strA, strB) {
 
   return aux(0, 0);
 }
+
+// memoization with higher order function
+// function findAbbreviation(strA, strB) {
+//   const isLower = (chr) => chr.toUpperCase() !== chr;
