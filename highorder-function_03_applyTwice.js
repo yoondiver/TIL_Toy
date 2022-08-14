@@ -1,3 +1,3 @@
 function applyTwice(func, num) {
-  // todo
+  // TODO: 여기에 코드를 작성합니다.
 }
