@@ -1,0 +1,1 @@
+function callbackOnly(callback, response) {}
