@@ -7,5 +7,7 @@ function getSquaredElementsAtProperty(obj, property) {
   let arr = obj[property];
   if (Array.isArray(arr)) {
     return arr.map((el) => square(el));
+  } else {
+    return [];
   }
 }
