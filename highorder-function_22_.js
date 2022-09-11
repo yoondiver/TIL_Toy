@@ -3,5 +3,7 @@ function classicMovies(arr, year) {
   const result = arr.filter(function (movie) {
     return movie.year < year;
   });
-  return result.map(function (movie) {});
+  return result.map(function (movie) {
+    return `${movie.title} by ${movie.director}`;
+  });
 }
