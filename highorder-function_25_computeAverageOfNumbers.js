@@ -3,4 +3,8 @@ function computeAverageOfNumbers(arr) {
   if (arr.length === 0) {
     return 0;
   }
+
+  let total = arr.reduce(function (acc, cur) {
+    return acc + cur;
+  });
 }
