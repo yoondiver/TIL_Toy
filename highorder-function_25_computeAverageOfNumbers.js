@@ -7,4 +7,6 @@ function computeAverageOfNumbers(arr) {
   let total = arr.reduce(function (acc, cur) {
     return acc + cur;
   });
+
+  return total / arr.length;
 }
