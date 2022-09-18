@@ -4,4 +4,5 @@ function calculateScore(records, value) {
     if (cur.animal === value) return acc + cur.score;
     else return acc;
   }, 0);
+  return sum;
 }
