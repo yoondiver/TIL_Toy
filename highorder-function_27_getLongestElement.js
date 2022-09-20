@@ -3,5 +3,5 @@ function getLongestElement(arr) {
   return arr.reduce((acc, cur) => {
     if (acc.length >= cur.length) return acc;
     else return cur;
-  });
+  }, "");
 }
