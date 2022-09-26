@@ -4,5 +4,6 @@ function findShortestWord(arr) {
   if (strArr.length === 0) return "";
   return strArr.reduce((acc, cur) => {
     if (acc.length <= cur.length) return acc;
+    else return cur;
   });
 }
