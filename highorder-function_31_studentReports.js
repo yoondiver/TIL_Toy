@@ -1,4 +1,6 @@
 function studentReports(students) {
   // TODO: 여기에 코드를 작성합니다.
-  let filtered = students.filter((el) => {});
+  let filtered = students.filter((el) => {
+    return el.gender === "female";
+  });
 }
