@@ -3,4 +3,5 @@ function studentReports(students) {
   let filtered = students.filter((el) => {
     return el.gender === "female";
   });
+  return filtered.map((el) => {});
 }
