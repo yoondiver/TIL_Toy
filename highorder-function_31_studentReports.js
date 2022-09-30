@@ -3,5 +3,9 @@ function studentReports(students) {
   let filtered = students.filter((el) => {
     return el.gender === "female";
   });
-  return filtered.map((el) => {});
+  return filtered.map((el) => {
+    let sum = el.grades.reduce((acc, cur) => {
+      return acc + cur;
+    });
+  });
 }
