@@ -9,5 +9,6 @@ function studentReports(students) {
     });
     let avg = sum / el.grades.length;
     el.grades = avg;
+    return el;
   });
 }
