@@ -8,5 +8,6 @@ function studentReports(students) {
       return acc + cur;
     });
     let avg = sum / el.grades.length;
+    el.grades = avg;
   });
 }
