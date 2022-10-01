@@ -4,6 +4,9 @@ function studentReports(students) {
     return el.gender === "female";
   });
   return filtered.map((el) => {
-    let sum = el.grades.reduce((acc, cur) => {});
+    let sum = el.grades.reduce((acc, cur) => {
+      return acc + cur;
+    });
+    let avg = sum / el.grades.length;
   });
 }
