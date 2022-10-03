@@ -4,5 +4,7 @@ function sumOfArraysInArray(arr) {
   let numArr = flatted.filter((el) => {
     return typeof el === "number";
   });
-  return numArr.reduce((acc, cur) => {}, 0);
+  return numArr.reduce((acc, cur) => {
+    return acc + cur;
+  }, 0);
 }
