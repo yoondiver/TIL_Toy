@@ -12,6 +12,6 @@ function isOdd(num) {
   }
 
   return isOdd(num - 2);
-
   // -2를 해서 0이면 false
+  // 1이면 true
 }
