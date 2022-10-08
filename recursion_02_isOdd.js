@@ -8,5 +8,6 @@ function isOdd(num) {
 
   // let num1 = num * -1;
   if (num < 0) {
+    num = num * -1;
   }
 }
