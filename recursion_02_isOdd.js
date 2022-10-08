@@ -5,4 +5,6 @@ function isOdd(num) {
   } else if (num === 1) {
     return true;
   }
+
+  // let num1 = num * -1;
 }
