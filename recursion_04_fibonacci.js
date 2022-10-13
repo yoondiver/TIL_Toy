@@ -5,5 +5,5 @@ function fibonacci(num) {
   if (num <= 1) {
     return 1;
   }
-  return num;
+  return num * factorial;
 }
