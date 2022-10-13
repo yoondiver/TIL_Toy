@@ -6,4 +6,6 @@ function fibonacci(num) {
     return num;
   }
   return fibonacci(num - 1) + fibonacci(num - 2);
+
+  // 피보나치 4 = 피보나치 2 + 피보나치 3
 }
