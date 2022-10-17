@@ -3,5 +3,5 @@ function arrLength(arr) {
   if (arr.isEmpty()) {
     return 0;
   }
-  return arrLength(arr.slice);
+  return arrLength(arr.slice) + 1;
 }
