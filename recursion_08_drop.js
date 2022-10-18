@@ -3,4 +3,6 @@ function drop(num, arr) {
   if (num === 0) {
     return arr;
   }
+  if (num >= arr.length) {
+  }
 }
