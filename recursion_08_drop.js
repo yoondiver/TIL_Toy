@@ -7,5 +7,5 @@ function drop(num, arr) {
     return [];
   }
 
-  return drop;
+  return drop(num - 1);
 }
