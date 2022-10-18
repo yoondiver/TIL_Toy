@@ -4,5 +4,6 @@ function drop(num, arr) {
     return arr;
   }
   if (num >= arr.length) {
+    return [];
   }
 }
