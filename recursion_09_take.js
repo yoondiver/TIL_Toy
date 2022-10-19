@@ -10,5 +10,5 @@ function take(num, arr) {
   const head = arr[0];
   const tail = arr.slice(1);
 
-  return [head].concat(take(nu - 1));
+  return [head].concat(take(num - 1, tail));
 }
