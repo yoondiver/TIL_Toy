@@ -5,4 +5,5 @@ function take(num, arr) {
   }
 
   // let result = arr.slice(0, num)
+  // return result
 }
