@@ -8,4 +8,5 @@ function take(num, arr) {
   // return result
 
   const head = arr[0];
+  const tail = arr.slice(1);
 }
