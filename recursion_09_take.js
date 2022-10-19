@@ -3,4 +3,6 @@ function take(num, arr) {
   if (num === 0 || arr.length === 0) {
     return [];
   }
+
+  // let result = arr.slice(0, num)
 }
