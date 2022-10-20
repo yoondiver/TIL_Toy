@@ -5,5 +5,5 @@ function and(arr) {
   }
 
   const head = arr[0];
-  const tail = arr.slice();
+  const tail = arr.slice(1);
 }
