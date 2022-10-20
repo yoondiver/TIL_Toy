@@ -3,4 +3,6 @@ function and(arr) {
   if (arr.length === 0) {
     return true;
   }
+
+  const head
 }
