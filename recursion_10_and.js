@@ -4,6 +4,6 @@ function and(arr) {
     return true;
   }
 
-  const head = arr[0]
-  const tail
+  const head = arr[0];
+  const tail = arr.slice();
 }
