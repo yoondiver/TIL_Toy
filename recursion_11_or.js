@@ -7,5 +7,5 @@ function or(arr) {
   const head = arr[0];
   const tail = arr.slice(1);
 
-  return head;
+  return head || tail;
 }
