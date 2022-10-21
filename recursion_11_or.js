@@ -4,7 +4,7 @@ function or(arr) {
     return false;
   }
 
-  const head = 0;
+  const head = arr[0];
   const tail = 0;
 
   return;
