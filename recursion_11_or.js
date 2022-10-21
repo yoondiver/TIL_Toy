@@ -3,4 +3,6 @@ function or(arr) {
   if (arr.length === 0) {
     return false;
   }
+
+  const head = 0;
 }
