@@ -4,7 +4,7 @@ function reverseArr(arr) {
     return [];
   }
 
-  const head = 0;
+  const head = arr[0];
   const tail = arr.length;
 
   return;
