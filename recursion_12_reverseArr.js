@@ -6,4 +6,6 @@ function reverseArr(arr) {
 
   const head = 0;
   const tail = 0;
+
+  return;
 }
