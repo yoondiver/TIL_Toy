@@ -5,7 +5,7 @@ function reverseArr(arr) {
   }
 
   const head = arr[0];
-  const tail = arr.length;
+  const tail = arr.slice;
 
   return;
 }
