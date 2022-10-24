@@ -7,5 +7,5 @@ function reverseArr(arr) {
   const head = arr[0];
   const tail = arr.slice(1);
 
-  return reverseArr(tail).concat;
+  return reverseArr(tail).concat(head);
 }
