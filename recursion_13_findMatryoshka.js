@@ -3,6 +3,6 @@ function findMatryoshka(matryoshka, size) {
   if (matryoshka.size === size) {
     return true;
   } else if (matryoshka.matryoshka && matryoshka.size > size) {
-    return;
+    return findMatryoshka;
   }
 }
