@@ -9,5 +9,10 @@ function unpackGiftbox(giftBox, wish) {
     if (giftBox[i] === wish) {
       return true;
     }
+    if (Array.isArray(giftBox[i])) {
+      if (unpackGiftbox(giftBox[i])) {
+        return true;
+      }
+    }
   }
 }
