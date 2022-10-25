@@ -7,6 +7,7 @@ function unpackGiftbox(giftBox, wish) {
 
   for (let i = 0; i < giftBox.length; i++) {
     if (giftBox[i] === wish) {
+      return true;
     }
   }
 }
