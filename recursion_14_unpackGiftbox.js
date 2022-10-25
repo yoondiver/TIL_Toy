@@ -15,4 +15,5 @@ function unpackGiftbox(giftBox, wish) {
       }
     }
   }
+  return false;
 }
