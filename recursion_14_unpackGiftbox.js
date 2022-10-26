@@ -10,7 +10,7 @@ function unpackGiftbox(giftBox, wish) {
       return true;
     }
     if (Array.isArray(giftBox[i])) {
-      if (unpackGiftbox(giftBox[i])) {
+      if (unpackGiftbox(giftBox[i], wish)) {
         return true;
       }
     }
