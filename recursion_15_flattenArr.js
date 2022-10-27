@@ -9,5 +9,7 @@ function flattenArr(arr) {
 
   if (Array.isArray(head)) {
     return;
+  } else {
+    return;
   }
 }
