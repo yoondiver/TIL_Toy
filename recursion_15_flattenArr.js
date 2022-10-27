@@ -8,7 +8,7 @@ function flattenArr(arr) {
   const tail = 0;
 
   if (Array.isArray(head)) {
-    return;
+    return flattenArr([...head, ...tail]);
   } else {
     return [head].concat(flattenArr(tail));
   }
