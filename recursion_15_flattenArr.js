@@ -3,4 +3,6 @@ function flattenArr(arr) {
   if (arr.length === 0) {
     return [];
   }
+
+  const head = 0;
 }
