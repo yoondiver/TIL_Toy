@@ -5,4 +5,5 @@ function flattenArr(arr) {
   }
 
   const head = 0;
+  const tail = 0;
 }
