@@ -4,7 +4,7 @@ function flattenArr(arr) {
     return [];
   }
 
-  const head = 0;
+  const head = arr[0];
   const tail = 0;
 
   if (Array.isArray(head)) {
