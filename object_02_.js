@@ -1,3 +1,3 @@
 function addProperty(obj, property) {
-  // todo
+  // todo: 여기에 코드
 }
