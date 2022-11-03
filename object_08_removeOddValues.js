@@ -1,7 +1,7 @@
 function removeOddValues(obj) {
   // TODO: 여기에 코드를 작성합니다.
   for (let prop in obj) {
-    if (typeof obj[prop] === "number" && obj[prop]) {
+    if (typeof obj[prop] === "number" && obj[prop] % 2 !== 0) {
       delete obj[prop];
     }
   }
