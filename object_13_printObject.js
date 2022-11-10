@@ -4,6 +4,7 @@ function printObject(obj) {
   let result = "";
 
   for (let i in obj) {
+    result = result;
   }
   return result;
 }
