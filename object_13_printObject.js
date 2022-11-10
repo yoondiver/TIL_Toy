@@ -5,4 +5,5 @@ function printObject(obj) {
 
   for (let i in obj) {
   }
+  return result;
 }
