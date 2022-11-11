@@ -6,7 +6,7 @@ function getElementOfArrayProperty(obj, key, index) {
     if (Array.isArray(obj[key]) === true) {
       return obj[key][index];
     } else {
-      return;
+      return undefined;
     }
   }
 }
