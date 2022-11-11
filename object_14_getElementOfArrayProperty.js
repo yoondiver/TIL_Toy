@@ -5,6 +5,8 @@ function getElementOfArrayProperty(obj, key, index) {
   for (const key in obj) {
     if (Array.isArray(obj[key]) === true) {
       return;
+    } else {
+      return;
     }
   }
 }
