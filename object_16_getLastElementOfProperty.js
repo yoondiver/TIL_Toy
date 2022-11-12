@@ -5,4 +5,5 @@ function getLastElementOfProperty(obj, property) {
   if (!Array.isArray(prop) || prop.length === 0) {
     return undefined;
   }
+  return;
 }
