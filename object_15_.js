@@ -4,7 +4,8 @@ function select(arr, obj) {
   let result = {};
   for(let ele of arr){
     if(){
-      
+
     }
   }
+  return result
 }
