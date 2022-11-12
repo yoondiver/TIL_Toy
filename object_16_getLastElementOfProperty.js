@@ -3,6 +3,6 @@ function getLastElementOfProperty(obj, property) {
   let prop = obj[property];
 
   if (!Array.isArray(prop) || prop.length === 0) {
-    return;
+    return undefined;
   }
 }
