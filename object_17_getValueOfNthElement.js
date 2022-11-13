@@ -3,4 +3,8 @@ function getValueOfNthElement(arr, num) {
   if (arr.length === 0) {
     return;
   }
+
+  if (arr.length <= num) {
+    return;
+  }
 }
