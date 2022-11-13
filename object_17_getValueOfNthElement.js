@@ -6,5 +6,7 @@ function getValueOfNthElement(arr, num) {
 
   if (arr.length <= num) {
     return;
+  } else if (arr.num) {
+    return;
   }
 }
