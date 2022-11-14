@@ -4,5 +4,7 @@ function getAllButLastElementOfProperty(obj, key) {
   let arr = [];
   if (Array.isArray(obj[key] === true)) {
     return;
+  } else {
+    return [];
   }
 }
