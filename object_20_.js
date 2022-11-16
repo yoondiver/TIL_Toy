@@ -9,7 +9,7 @@ function countAllCharacters(str) {
       
     }
   } else {
-    result [char]
+    result [char] += 1
   }
   return result
 }
