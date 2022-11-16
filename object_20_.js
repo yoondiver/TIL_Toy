@@ -4,7 +4,10 @@ function countAllCharacters(str) {
   let result = {};
 
   for (let char of str) {
-    result[char];
+    if(char in result === false){
+      result[char];
+      
+    }
   } else {
     result [char]
   }
