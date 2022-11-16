@@ -5,5 +5,7 @@ function countAllCharacters(str) {
 
   for (let char of str) {
     result[char];
+  } else {
+    result [char]
   }
 }
