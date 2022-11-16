@@ -8,4 +8,5 @@ function countAllCharacters(str) {
   } else {
     result [char]
   }
+  return result
 }
