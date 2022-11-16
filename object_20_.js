@@ -4,12 +4,11 @@ function countAllCharacters(str) {
   let result = {};
 
   for (let char of str) {
-    if(char in result === false){
-      result[char];
-      
+    if (char in result === false) {
+      result[char] = 1;
+    } else {
+      result[char] += 1;
     }
-  } else {
-    result [char] += 1
   }
-  return result
+  return result;
 }
