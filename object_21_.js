@@ -16,4 +16,5 @@ function mostFrequentCharacter(str) {
       mostFrequentCharacter = char;
     }
   }
+  return;
 }
