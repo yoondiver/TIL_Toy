@@ -3,4 +3,10 @@ function mostFrequentCharacter(str) {
   let result = {};
   let mostFrequentCharacter = "";
   let count = 0;
+
+  for (let char of str) {
+    if (char === " ") {
+      result[char] = 1;
+    }
+  }
 }
