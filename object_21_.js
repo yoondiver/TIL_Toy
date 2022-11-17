@@ -13,6 +13,7 @@ function mostFrequentCharacter(str) {
 
     if (result[char] > count) {
       count = result[char];
+      mostFrequentCharacter = char;
     }
   }
 }
