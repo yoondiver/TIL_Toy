@@ -7,6 +7,8 @@ function mostFrequentCharacter(str) {
   for (let char of str) {
     if (char === " ") {
       result[char] = 1;
+    } else {
+      result[char] += 1;
     }
   }
 }
