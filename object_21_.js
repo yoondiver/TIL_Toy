@@ -1,11 +1,12 @@
 function mostFrequentCharacter(str) {
   // TODO: 여기에 코드를 작성합니다.
   let result = {};
-  let mostFrequentCharacter = "";
-  let count = 0;
+  let mostFrequent = "";
+  let count = 1;
 
   for (let char of str) {
-    if (char === " ") {
+    if (char === " ") continue;
+    if (char in result === false) {
       result[char] = 1;
     } else {
       result[char] += 1;
@@ -13,8 +14,8 @@ function mostFrequentCharacter(str) {
 
     if (result[char] > count) {
       count = result[char];
-      mostFrequentCharacter = char;
+      mostFrequent = char;
     }
   }
-  return;
+  return mostFrequent;
 }
