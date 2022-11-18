@@ -3,5 +3,7 @@ function isOldEnoughToDrink(age) {
   // if(age)가 18세이상이면 true
   if (age >= 18) {
     return true;
+  } else {
+    return false;
   }
 }
