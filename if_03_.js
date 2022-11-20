@@ -3,5 +3,7 @@ function equalsTen(num) {
   // num이 10이면 true 아니면 false
   if (num === 10) {
     return;
+  } else {
+    return;
   }
 }
