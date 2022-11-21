@@ -3,7 +3,7 @@ function isGreaterThan(num1, num2) {
   // num2가 num1 보다 크면 true
 
   if (num2 > num1) {
-    return;
+    return true;
   } else {
     return false;
   }
