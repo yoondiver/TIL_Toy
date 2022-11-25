@@ -3,7 +3,8 @@ function isEvenAndGreaterThanTen(num) {
   // num이 10보다 크고, 짝수일때 true, 아니면 false
 
   if (num > 10 && num % 2 === 0) {
-    return;
+    return true;
+  } else {
+    return false;
   }
-  return false;
 }
