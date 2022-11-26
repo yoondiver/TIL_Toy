@@ -10,4 +10,9 @@ function fizzBuzz(num) {
   else if (num % 3 === 0) {
     return "Fizz";
   }
+
+  // 5으로 나누어 떨어지는 경우, 'Buzz'
+  else if (num % 5 === 0) {
+    return "Buzz";
+  }
 }
