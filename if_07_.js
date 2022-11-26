@@ -15,4 +15,7 @@ function fizzBuzz(num) {
   else if (num % 5 === 0) {
     return "Buzz";
   }
+
+  // 3이나 5로 나누어 떨어지지 않는 경우, 'No FizzBuzz'
+  else return "No FizzBuzz";
 }
