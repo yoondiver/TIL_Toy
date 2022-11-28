@@ -17,4 +17,7 @@ function miniCalculator(num1, num2, operator) {
   else if (operator === "/") {
     return num1 / num2;
   }
+
+  // *
+  else return num1 * num2;
 }
