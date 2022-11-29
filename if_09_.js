@@ -18,4 +18,7 @@ function daysInMonth(month) {
   ) {
     return 31;
   }
+
+  // 나머지 30
+  else return 30;
 }
