@@ -5,5 +5,7 @@ function followingDay(day) {
     return "화요일";
   } else if (day === "화요일") {
     return "수요일";
+  } else if (day === "수요일") {
+    return "목요일";
   }
 }
