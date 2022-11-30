@@ -11,5 +11,9 @@ function followingDay(day) {
     return "금요일";
   } else if (day === "금요일") {
     return "토요일";
-  }
+  } else if (day === "토요일") {
+    return "일요일";
+  } else if (day === "일요일") {
+    return "월요일";
+  } else return "올바른 요일이 아닙니다";
 }
