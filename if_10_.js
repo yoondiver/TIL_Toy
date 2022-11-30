@@ -9,5 +9,7 @@ function followingDay(day) {
     return "목요일";
   } else if (day === "목요일") {
     return "금요일";
+  } else if (day === "금요일") {
+    return "토요일";
   }
 }
