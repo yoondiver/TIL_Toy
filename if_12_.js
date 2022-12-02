@@ -7,5 +7,7 @@ function convertScoreToGrade(score) {
     return "B";
   } else if (score >= 70 && score <= 79) {
     return "C";
+  } else if (score >= 60 && score <= 69) {
+    return "D";
   }
 }
