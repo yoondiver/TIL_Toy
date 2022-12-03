@@ -11,5 +11,5 @@ function convertScoreToGrade(score) {
     return "D";
   } else if (score >= 0 && score <= 59) {
     return "F";
-  }
+  } else return "INVALID SCORE";
 }
