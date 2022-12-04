@@ -26,5 +26,7 @@ function convertScoreToGradeWithPlusAndMinus(score) {
     return "D";
   } else if (score >= 60 && score <= 62) {
     return "D-";
+  } else if (score >= 0 && score <= 59) {
+    return "F";
   }
 }
