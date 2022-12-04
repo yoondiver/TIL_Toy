@@ -6,5 +6,7 @@ function convertScoreToGradeWithPlusAndMinus(score) {
     return "A+";
   } else if (score >= 93 && score <= 97) {
     return "A";
+  } else if (score >= 90 && score <= 92) {
+    return "A-";
   }
 }
