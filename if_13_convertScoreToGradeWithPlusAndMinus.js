@@ -4,5 +4,7 @@ function convertScoreToGradeWithPlusAndMinus(score) {
     return "INVALID SCORE";
   } else if (score > 98) {
     return "A+";
+  } else if (score >= 93 && score <= 97) {
+    return "A";
   }
 }
