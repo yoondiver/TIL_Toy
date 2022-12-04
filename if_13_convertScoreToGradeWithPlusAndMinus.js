@@ -8,5 +8,11 @@ function convertScoreToGradeWithPlusAndMinus(score) {
     return "A";
   } else if (score >= 90 && score <= 92) {
     return "A-";
+  } else if (score >= 88 && score <= 89) {
+    return "B+";
+  } else if (score >= 83 && score <= 87) {
+    return "B";
+  } else if (score >= 80 && score <= 82) {
+    return "B-";
   }
 }
