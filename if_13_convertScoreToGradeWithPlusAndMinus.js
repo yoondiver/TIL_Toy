@@ -14,5 +14,11 @@ function convertScoreToGradeWithPlusAndMinus(score) {
     return "B";
   } else if (score >= 80 && score <= 82) {
     return "B-";
+  } else if (score >= 78 && score <= 79) {
+    return "C+";
+  } else if (score >= 73 && score <= 77) {
+    return "C";
+  } else if (score >= 70 && score <= 72) {
+    return "C-";
   }
 }
