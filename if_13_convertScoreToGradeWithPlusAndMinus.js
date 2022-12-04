@@ -20,5 +20,11 @@ function convertScoreToGradeWithPlusAndMinus(score) {
     return "C";
   } else if (score >= 70 && score <= 72) {
     return "C-";
+  } else if (score >= 68 && score <= 69) {
+    return "D+";
+  } else if (score >= 63 && score <= 67) {
+    return "D";
+  } else if (score >= 60 && score <= 62) {
+    return "D-";
   }
 }
