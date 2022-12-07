@@ -10,5 +10,7 @@ function addOneSecond(hour, minute, second) {
   } else if ((hour !== 23) & (minute === 59) && second === 59) {
     hour = hour + 1;
     return "1초 뒤에 " + hour + "시 0분 0초 입니다";
+  } else if ((hour === 23) & (minute === 59) && second === 59) {
+    return "1초 뒤에 0시 0분 0초 입니다";
   }
 }
