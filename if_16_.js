@@ -14,3 +14,5 @@ function addOneSecond(hour, minute, second) {
     return "1초 뒤에 0시 0분 0초 입니다";
   }
 }
+
+// // second 59일때 0,  minute 59 0
