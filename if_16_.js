@@ -16,3 +16,13 @@ function addOneSecond(hour, minute, second) {
 }
 
 // // second 59일때 0,  minute 59 0
+
+// if (second === 59){
+//   if (minute === 59){
+//     if (hour ===23){
+//       return '1초 뒤에 0시 0분 0초 입니다'
+//     }
+//     else {let a = hour+1;
+//     return '1초뒤에 ' + a + '시 0분 0초 입니다'}
+//     }
+//   }
