@@ -4,4 +4,14 @@ function isFalsy(anything) {
   if (isNaN(anything)) {
     return true;
   }
+
+  if (
+    anything !== 0 &&
+    anything !== false &&
+    anything !== undefined &&
+    anything !== "" &&
+    anything !== null
+  ) {
+    return false;
+  }
 }
