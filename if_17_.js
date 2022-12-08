@@ -13,5 +13,5 @@ function isFalsy(anything) {
     anything !== null
   ) {
     return false;
-  }
+  } else return true;
 }
