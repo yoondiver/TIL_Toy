@@ -12,4 +12,6 @@ function findMinLengthOfThreeWords(word1, word2, word3) {
   } else if (word1.length > word3.length) {
     shortestword = word3;
   }
+
+  return shortestword.length;
 }
