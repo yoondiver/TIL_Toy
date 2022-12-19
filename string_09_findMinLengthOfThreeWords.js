@@ -4,5 +4,6 @@ function findMinLengthOfThreeWords(word1, word2, word3) {
   let shortestword = word1;
 
   if (word1.length > word2.length) {
+    shortestword = word2;
   }
 }
