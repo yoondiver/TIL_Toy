@@ -4,5 +4,6 @@ function takeLetters(num, str) {
   // str num 비교해서 작은수 리턴
 
   if (num <= str.length) {
+    return str.slice(0, num);
   }
 }
