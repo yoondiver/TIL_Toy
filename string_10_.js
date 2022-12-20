@@ -5,5 +5,5 @@ function takeLetters(num, str) {
 
   if (num <= str.length) {
     return str.slice(0, num);
-  }
+  } else return str.slice(0, str.length);
 }
