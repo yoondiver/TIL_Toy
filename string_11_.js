@@ -3,5 +3,5 @@ function dropLetters(num, str) {
 
   if (num <= str.length) {
     return str.slice(num, str.length);
-  }
+  } else return str.slice(str.length);
 }
