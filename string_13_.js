@@ -5,5 +5,8 @@ function compareNumbers(num1, num2) {
     return `${num1}은(는) ${num2}보다 큽니다`;
   }
   // num2 이 클경우
+  if (num2 > num1) {
+    return num1 + "은(는) " + num2 + "보다 작습니다";
+  }
   // 같을경우
 }
