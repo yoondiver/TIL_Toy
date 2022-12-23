@@ -9,4 +9,5 @@ function compareNumbers(num1, num2) {
     return num1 + "은(는) " + num2 + "보다 작습니다";
   }
   // 같을경우
+  else return "두 수는 같습니다";
 }
