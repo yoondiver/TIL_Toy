@@ -3,5 +3,5 @@ function compareNumberStrings(numStr1, numStr2) {
 
   if (numStr1 > numStr2) {
     return String(Number(numStr1) + 5);
-  }
+  } else return String(Number(numStr2) + 5);
 }
