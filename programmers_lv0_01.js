@@ -1,1 +1,3 @@
-function solution(numbers) {}
+function solution(numbers) {
+  let answer = [];
+}
