@@ -6,3 +6,5 @@ function solution(numbers) {
   }
   return answer;
 }
+
+// 몫 구하기
