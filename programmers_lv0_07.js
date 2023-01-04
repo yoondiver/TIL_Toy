@@ -4,11 +4,11 @@
  */
 
 function solution(num, total) {
-  0 <= num1 <= 10000;
-  0 <= total1 <= 10000;
+  0 <= num <= 10000;
+  0 <= total <= 10000;
   let answer = 0;
 
-  if (num1 === total) {
+  if (num === total) {
     answer = 1;
   } else {
     answer = -1;
