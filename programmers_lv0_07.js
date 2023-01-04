@@ -4,6 +4,12 @@
  */
 
 function solution(num, total) {
-  var answer = [];
+  0 <= num1 <= 10000;
+  0 <= total1 <= 10000;
+  let answer = 0;
+
+  if (num1 === total) {
+    answer = 1;
+  }
   return answer;
 }
