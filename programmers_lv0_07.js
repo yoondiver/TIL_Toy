@@ -10,6 +10,8 @@ function solution(num, total) {
 
   if (num1 === total) {
     answer = 1;
+  } else {
+    answer = -1;
   }
   return answer;
 }
