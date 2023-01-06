@@ -14,5 +14,7 @@ function solution(angle) {
 
   if (angle < 90) {
     answer = 1;
+  } else if (angle == 90) {
+    answer = 2;
   }
 }
