@@ -11,5 +11,8 @@
 
 function solution(angle) {
   var answer = 0;
-  return answer;
+
+  if (angle < 90) {
+    answer = 1;
+  }
 }
