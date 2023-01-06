@@ -8,3 +8,8 @@
  * 둔각일 때 3,
  * 평각일 때 4를 return하도록 solution 함수를 완성해주세요.
  */
+
+function solution(angle) {
+  var answer = 0;
+  return answer;
+}
