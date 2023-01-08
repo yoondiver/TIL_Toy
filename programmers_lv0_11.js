@@ -9,5 +9,7 @@ function solution(numbers) {
   for (let i = 0; i < numbers.length; i++) {
     answer += numbers[i];
   }
+
+  answer = answer / numbers.length;
   return answer;
 }
