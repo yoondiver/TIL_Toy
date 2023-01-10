@@ -8,5 +8,7 @@ function solution(n) {
   var answer = 0;
   0 < n <= 1000;
 
+  for (let i = 1; i <= n; i++) {}
+
   return answer;
 }
