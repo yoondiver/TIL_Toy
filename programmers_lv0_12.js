@@ -13,6 +13,5 @@ function solution(n) {
       answer += i;
     }
   }
-
   return answer;
 }
