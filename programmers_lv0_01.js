@@ -1,7 +1,8 @@
-// 몫 구하기
+// 배열 두배 만들기
 
 /**
-정수 num1, num2가 매개변수로 주어질 때, num1을 num2로 나눈 몫을 return 하도록 solution 함수를 완성해주세요.
+정수 배열 numbers가 매개변수로 주어집니다. 
+numbers의 각 원소에 두배한 원소를 가진 배열을 return하도록 solution 함수를 완성해주세요.
  */
 
 function solution(numbers) {
