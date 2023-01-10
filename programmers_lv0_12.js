@@ -6,5 +6,7 @@
 
 function solution(n) {
   var answer = 0;
+  0 < n <= 1000;
+
   return answer;
 }
