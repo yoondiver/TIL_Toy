@@ -10,5 +10,8 @@ function solution(numer1, denom1, numer2, denom2) {
 
   // 분모
   let botNum = num1 * num2;
+
+  // 최소 공배수
+  let maximum = 1;
   return answer;
 }
