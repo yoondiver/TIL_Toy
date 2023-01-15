@@ -7,5 +7,8 @@
 function solution(numer1, denom1, numer2, denom2) {
   // 분자
   let topNum = num1 * denum2 + num2 * denum1;
+
+  // 분모
+  let botNum = num1 * num2;
   return answer;
 }
