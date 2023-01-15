@@ -13,5 +13,12 @@ function solution(numer1, denom1, numer2, denom2) {
 
   // 최소 공배수
   let maximum = 1;
+
+  // 약분
+  for (let i = 1; i <= topNum; i++) {
+    if (topNum % i === 0 && botNum % i === 0) {
+      maximum = i;
+    }
+  }
   return answer;
 }
