@@ -5,6 +5,8 @@
  * solution 함수를 완성해보세요. */
 
 function solution(array, n) {
+  //리턴값으로 쓸 정수
   var answer = 0;
+
   return answer;
 }
