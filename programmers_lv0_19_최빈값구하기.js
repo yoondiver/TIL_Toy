@@ -5,6 +5,10 @@
  * 최빈값이 여러 개면 -1을 return 합니다.
  */
 function solution(array) {
-  var answer = 0;
-  return answer;
+  let setArr = [...new Set(array)]; //array 중복제거
+  let cnt = []; //setArr 요소별 카운트값 담을 배열
+  for (let i = 0; i < setArr.length; i++) {
+    let iCnt = array.filter((x) => x == setArr[i]).length;
+    cnt.push(iCnt);
+  }
 }
