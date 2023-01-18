@@ -14,4 +14,10 @@ function solution(array) {
 
   //최빈값 계산
   let maxCnt = Math.max(...cnt);
+  let answer =
+    cnt.filter((x) => x == maxCnt).length > 1
+      ? -1
+      : setArr[cnt.indexOf(maxCnt)];
+
+  return answer;
 }
