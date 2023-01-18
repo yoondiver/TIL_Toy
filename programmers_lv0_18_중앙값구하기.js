@@ -4,3 +4,8 @@
  * 예를 들어 1, 2, 7, 10, 11의 중앙값은 7입니다.
  * 정수 배열 array가 매개변수로 주어질 때, 중앙값을 return 하도록 solution 함수를 완성해보세요.
  */
+
+function solution(array) {
+  var answer = 0;
+  return answer;
+}
