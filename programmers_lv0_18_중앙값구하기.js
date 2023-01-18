@@ -17,3 +17,10 @@ function solution(array) {
   let result = array[length - 1];
   return result;
 }
+
+/**
+ * 화살표 함수로
+ * function solution(array) {
+  return array.sort((a, b) => a - b)[Math.floor(array.length / 2)];
+}
+ */
