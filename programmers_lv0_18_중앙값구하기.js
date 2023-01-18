@@ -6,6 +6,14 @@
  */
 
 function solution(array) {
-  var answer = 0;
-  return answer;
+  // 배열 정렬
+  // 오름차순
+
+  array.sort(function (a, b) {
+    return a - b;
+  });
+
+  let length = (array.length + 1) / 2;
+  let result = array[length - 1];
+  return result;
 }
