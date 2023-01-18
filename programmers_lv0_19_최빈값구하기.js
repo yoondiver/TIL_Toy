@@ -11,4 +11,7 @@ function solution(array) {
     let iCnt = array.filter((x) => x == setArr[i]).length;
     cnt.push(iCnt);
   }
+
+  //최빈값 계산
+  let maxCnt = Math.max(...cnt);
 }
