@@ -7,6 +7,12 @@
  */
 
 function solution(money) {
-  var answer = [];
+  // 몫
+  let cup = Math.floor(money / 5500);
+
+  // 나머지
+  let changes = money % 5500;
+
+  let answer = [cup, changes];
   return answer;
 }
