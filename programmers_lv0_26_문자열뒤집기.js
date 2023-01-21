@@ -6,6 +6,14 @@
  */
 
 function solution(my_string) {
-  var answer = "";
+  // 문자열을 배열로 나누기 str.split()
+  let answer = my_string.split("");
+
+  // 배열 뒤집기 arr.reverse()
+  answer = answer.reverse();
+
+  // 배열을 문자열로 합치기 arr.join()
+  // 여기서 매개변수(구분자)를 생략할 경우, 모든 배열이 쉼표로 구분되어 합쳐지므로 빈 문자열로 지정해주기
+  answer = answer.join("");
   return answer;
 }
