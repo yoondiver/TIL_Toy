@@ -6,5 +6,8 @@
 
 function solution(my_string, letter) {
   var answer = "";
+
+  answer = [...my_string].filter((words) => words !== letter).join("");
+
   return answer;
 }
