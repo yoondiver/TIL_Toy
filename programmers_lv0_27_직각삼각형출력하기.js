@@ -15,5 +15,11 @@ let input = [];
 rl.on("line", function (line) {
   input = line.split(" ");
 }).on("close", function () {
-  console.log(Number(input[0]));
+  let tri = "";
+
+  for (let i = 0; i < Number(input[0]); i++) {
+    let a = "";
+    tri += a.padStart(i + 1, "*") + "\n";
+  }
+  console.log(tri);
 });
