@@ -19,7 +19,7 @@ function solution(hp) {
 }
 
 /**
- *
+ * 다른 사람풀이 (나머지 활용)
  * function solution(hp) {
  *    return Math.floor(hp / 5) + Math.floor((hp % 5) / 3) + (hp % 5) % 3;
  * }
