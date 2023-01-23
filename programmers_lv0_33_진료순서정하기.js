@@ -8,3 +8,9 @@ function solution(emergency) {
   var answer = emergency.map((x) => emergency.filter((y) => y >= x).length);
   return answer;
 }
+
+// 다른 사람들의 풀이
+/**
+ * let sort = emergency.sort((a,b) => b-a);
+ * let answer = emergency.map(x => sort.indexOf(x)+1);
+ */
