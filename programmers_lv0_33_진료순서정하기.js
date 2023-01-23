@@ -5,6 +5,6 @@
  */
 
 function solution(emergency) {
-  var answer = [];
+  var answer = emergency.map((x) => emergency.filter((y) => y >= x).length);
   return answer;
 }
