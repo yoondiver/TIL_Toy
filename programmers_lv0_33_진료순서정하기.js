@@ -14,3 +14,11 @@ function solution(emergency) {
  * let sort = emergency.sort((a,b) => b-a);
  * let answer = emergency.map(x => sort.indexOf(x)+1);
  */
+
+/**
+ * 
+ * function solution(emergency) {
+    let sorted = emergency.slice().sort((a,b)=>b-a);
+    return emergency.map(v=>sorted.indexOf(v)+1);
+  }
+ */
