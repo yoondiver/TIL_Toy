@@ -8,9 +8,7 @@ function solution(numbers, direction) {
   var answer = [];
   numbers.map((x, i) => {
     let next =
-      direction == "right"
-        ? numbers[(i - 1 + numbers.length) % numbers.length]
-        : numbers[(i + 1) % numbers.length];
+      direction == "right" ? numbers[(i - 1 + numbers.length) % numbers.length] : numbers[(i + 1) % numbers.length];
     answer.push(next);
   });
   return answer;
