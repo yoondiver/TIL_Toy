@@ -10,3 +10,9 @@ function solution(numbers, k) {
   let len = numbers.length;
   return numbers[(2 * (k - 1)) % len];
 }
+
+/**
+ * function solution(numbers, k) {
+    return numbers[(--k*2)%numbers.length];
+  }
+ */
