@@ -7,6 +7,6 @@
  */
 
 function solution(numbers, k) {
-  var answer = 0;
-  return answer;
+  let len = numbers.length;
+  return numbers[(2 * (k - 1)) % len];
 }
