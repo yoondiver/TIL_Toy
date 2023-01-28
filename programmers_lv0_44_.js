@@ -5,6 +5,16 @@
  */
 
 function solution(n) {
-  var answer = 0;
-  return answer;
+  let compositeNumbers = [];
+  for (let i = 2; i <= n; i++) {
+    for (let j = 2; j < i; j++) {
+      if (i % j === 0) {
+        // 1과 i 자기 자신을 제외한 나머지수를 i로 나눌때도 나누어 떨어지면 합성수이다
+        compositeNumbers.push(i);
+        break;
+      }
+    }
+  }
+
+  return compositeNumbers.length;
 }
