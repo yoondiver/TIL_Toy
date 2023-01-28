@@ -5,6 +5,21 @@
  */
 
 function solution(numbers) {
-  var answer = 0;
-  return answer;
+  let answer = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    for (let j = 0; j < numbers.length; j++) {
+      if (i !== j) {
+        answer.push(number[i] * numbers[j]);
+      }
+    }
+  }
+  return Math.max(...answer);
 }
+
+/**
+ * function solution(numbers) {
+    numbers.sort((a,b)=>b-a);
+    return numbers[0]*numbers[1];
+  }
+ */
