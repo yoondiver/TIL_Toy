@@ -18,6 +18,7 @@ function solution(numbers) {
 }
 
 /**
+ * 초깔끔 +_+
  * function solution(numbers) {
     numbers.sort((a,b)=>b-a);
     return numbers[0]*numbers[1];
