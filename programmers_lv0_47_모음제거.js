@@ -20,7 +20,8 @@ function solution(my_string) {
   return newString.join("");
 }
 
-/**
+/** replace 사용법 체크!
+ * 
  * function solution(my_string) {
     return my_string.replace(/[aeiou]/g, '');
   }
