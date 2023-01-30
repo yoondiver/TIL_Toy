@@ -9,6 +9,81 @@
  */
 
 function solution(n) {
-  var answer = [];
-  return answer;
+  const answer = [];
+  const uniqueArr = [];
+
+  while (n % 2 === 0) {
+    answer.push(2);
+    n /= 2;
+  }
+
+  for (let i = 3; i <= n; i += 2) {
+    while (n % i === 0) {
+      answer.push(i);
+      n /= i;
+    }
+  }
+
+  if (n > 2) answer.push(n);
+  
+  answer.forEach((element) => {
+    if (!uniqueArr.includes(element)) {
+      uniqueArr.push(element);
+    }
+  });
+
+  return uniqueArr;
 }
+
+/**
+ * 
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+function solution(n) {
+    var list = [];
+
+    function isPrime(n){
+        if (n == 2)
+            return true;
+
+        for (let i = 2; i < n; i++){
+            if (n%i == 0){
+                return false;
+            }
+        }
+        return true;
+    }
+
+    for (let i = 2; i <= n; i++){
+        if ((isPrime(i))&&(n%i == 0)){
+            list.push(i);
+            n = n/i;
+        }
+    }
+
+    return list;
+  }
+ */
