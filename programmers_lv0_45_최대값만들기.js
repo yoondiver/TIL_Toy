@@ -5,16 +5,16 @@
  */
 
 function solution(numbers) {
-  let answer = [];
+    let answer = [];
 
-  for (let i = 0; i < numbers.length; i++) {
-    for (let j = 0; j < numbers.length; j++) {
-      if (i !== j) {
-        answer.push(number[i] * numbers[j]);
-      }
+    for (let i = 0; i < numbers.length; i++) {
+        for (let j = 0; j < numbers.length; j++) {
+            if (i !== j) {
+                answer.push(number[i] * numbers[j]);
+            }
+        }
     }
-  }
-  return Math.max(...answer);
+    return Math.max(...answer);
 }
 
 /**
