@@ -6,6 +6,6 @@
  */
 
 function solution(strlist) {
-  let answer = [];
+  var answer = strlist.map(x => x.length);
   return answer;
 }
