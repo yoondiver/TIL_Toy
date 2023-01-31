@@ -9,6 +9,43 @@
  */
 
 function solution(s) {
-  var answer = 0;
+  let sArr = s.split(' ');
+  let answer = 0;
+  sArr.map((cur,idx) => {
+      if(cur === 'Z'){
+          answer -= Number(sArr[idx-1]);
+      } else {
+          answer += Number(cur);
+      }
+  })
   return answer;
 }
+
+/**
+ * function solution(s) {
+    let sArr = s.split(' ');
+    let ctrlZ = [];
+    sArr.map(x => {
+        if(isFinite(x)){
+            ctrlZ.push(Number(x));
+        } else {
+            ctrlZ.pop();
+        }
+    });
+    let answer = ctrlZ.reduce(function(acc,cur){return acc+cur}, 0);
+    return answer;
+  }
+ */
+
+  /** 스택
+   * function solution(s) {
+    const stack = []
+
+    s.split(' ').forEach((target) => {
+        if(target === 'Z') stack.pop();
+        else stack.push(+target)
+    })
+
+    return stack.length ? stack.reduce((pre, cur) => pre + cur) : 0;
+  }
+   */
