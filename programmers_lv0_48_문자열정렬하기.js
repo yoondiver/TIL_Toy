@@ -5,8 +5,14 @@
  */
 
 function solution(my_string) {
-  let numbers = my_string.match(/[0-9]/g)//정규식을 이용해 숫자만 찾는다.
-  .map(str => parseInt(str))//string type을 number로 변환한다.
-  .sort((a,b) => a-b);//오름차순 정렬
-  return numbers;
+    //정규식을 이용해 숫자만 찾는다.
+    let numbers = my_string
+        .match(/[0-9]/g)
+
+        //string type을 number로 변환한다.
+        .map(str => parseInt(str))
+        
+        //오름차순 정렬
+        .sort((a, b) => a - b);
+    return numbers;
 }
