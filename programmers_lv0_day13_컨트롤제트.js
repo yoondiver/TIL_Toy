@@ -9,16 +9,16 @@
  */
 
 function solution(s) {
-  let sArr = s.split(' ');
-  let answer = 0;
-  sArr.map((cur,idx) => {
-      if(cur === 'Z'){
-          answer -= Number(sArr[idx-1]);
-      } else {
-          answer += Number(cur);
-      }
-  })
-  return answer;
+    let sArr = s.split(' ');
+    let answer = 0;
+    sArr.map((cur, idx) => {
+        if (cur === 'Z') {
+            answer -= Number(sArr[idx - 1]);
+        } else {
+            answer += Number(cur);
+        }
+    })
+    return answer;
 }
 
 /**
