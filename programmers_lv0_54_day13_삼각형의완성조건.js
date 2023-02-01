@@ -8,6 +8,9 @@
  */
 
 function solution(sides) {
-  var answer = 0;
+  sides.sort((a, b) => b - a);
+  let maxLength = sides.shift();
+  let sum = sides.reduce((acc, cur) => acc + cur);
+  var answer = maxLength < sum ? 1 : 2;
   return answer;
 }
