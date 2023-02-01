@@ -6,6 +6,6 @@
  */
 
 function solution(my_string) {
-  var answer = "";
+  let answer = [...new Set(my_string.split(""))].join("");
   return answer;
 }
