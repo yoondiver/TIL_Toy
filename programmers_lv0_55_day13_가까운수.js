@@ -6,6 +6,10 @@
  */
 
 function solution(array, n) {
-  var answer = 0;
+  array = array.sort((a, b) => {
+    return a - b;
+  });
+  let diff = array.map((x) => Math.abs(x - n));
+  var answer = array[diff.indexOf(Math.min(...diff))];
   return answer;
 }
