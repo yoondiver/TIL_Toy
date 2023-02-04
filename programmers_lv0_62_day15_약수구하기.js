@@ -4,6 +4,32 @@
  */
 
 function solution(n) {
-  var answer = [];
-  return answer;
+  let answer = [];
+  for (let i = 1; i <= n; i++) {
+    if (n % i === 0) {
+      // i가 n의 약수인 경우
+      if (answer.indexOf(n / i) > -1) {
+        // 또 다른 약수가 이미 저장되어 있는 경우
+        break;
+      } else {
+        if (i === n / i) {
+          // i가 n의 제곱근이면
+          answer.push(i);
+          break;
+        } else {
+          answer.push(i);
+          answer.push(n / i);
+        }
+      }
+    }
+  }
+  return answer.sort((a, b) => {
+    return a - b;
+  }); //정렬
 }
+
+/**
+ * function solution(n) {
+    return Array(n).fill(0).map((v, index) => v+index+1).filter((v) => n%v===0);
+  }
+ */
