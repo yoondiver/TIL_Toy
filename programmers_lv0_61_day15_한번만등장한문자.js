@@ -6,6 +6,17 @@
  */
 
 function solution(s) {
-  var answer = "";
+  s = s.split("").sort(); //s를 배열로 변환 후 사전순으로 정렬
+  let answer = "";
+  while (s.length > 0) {
+    if (s.lastIndexOf(s[0]) === 0) {
+      //s[0]가 한 번만 등장했을 경우
+      answer += s[0]; //answer에 더해주고
+      s = s.slice(1); //s[0]를 제거한 배열을 리턴
+    } else {
+      //여러번 등장했을 경우
+      s = s.slice(s.lastIndexOf(s[0]) + 1); //s[0]를 제거한 배열을 리턴
+    }
+  }
   return answer;
 }
