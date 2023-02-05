@@ -8,3 +8,10 @@ function solution(array) {
   let answer = [Math.max(...array), array.indexOf(Math.max(...array))];
   return answer;
 }
+
+/**
+ * function solution(array) {
+    let max = Math.max(...array);
+    return [max, array.indexOf(max)];
+  }
+ */
