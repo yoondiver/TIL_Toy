@@ -5,6 +5,6 @@
  */
 
 function solution(array) {
-  var answer = [];
+  let answer = [Math.max(...array), array.indexOf(Math.max(...array))];
   return answer;
 }
