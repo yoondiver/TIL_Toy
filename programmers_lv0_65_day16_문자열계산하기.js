@@ -5,6 +5,5 @@
  */
 
 function solution(my_string) {
-  var answer = 0;
-  return answer;
+  return eval(my_string);
 }
