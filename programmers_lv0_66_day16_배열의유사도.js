@@ -5,6 +5,14 @@
  */
 
 function solution(s1, s2) {
-  var answer = 0;
+  let answer = s1.filter((x) => s2.indexOf(x) > -1).length;
+
   return answer;
 }
+
+/**
+ * function solution(s1, s2) {
+    const intersection = s1.filter((x) => s2.includes(x));
+    return intersection.length;
+  }
+ */
