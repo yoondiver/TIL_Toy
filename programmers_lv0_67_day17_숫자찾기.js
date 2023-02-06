@@ -6,6 +6,12 @@
  */
 
 function solution(num, k) {
-  var answer = 0;
-  return answer;
+  let answer = num.toString().indexOf(k);
+  return answer === -1 ? -1 : answer + 1;
 }
+
+/**
+ * function solution(num, k) {
+    return num.toString().split("").map((el) => Number(el)).indexOf(k) + 1 || -1
+  }
+ */
