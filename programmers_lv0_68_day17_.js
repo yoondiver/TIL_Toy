@@ -6,5 +6,6 @@
 
 function solution(n, numlist) {
   var answer = [];
+  answer = numlist.filter((number) => !Boolean(number % n));
   return answer;
 }
