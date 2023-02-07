@@ -9,3 +9,9 @@ function solution(n, numlist) {
   answer = numlist.filter((number) => !Boolean(number % n));
   return answer;
 }
+
+/**
+ * function solution(n, numlist) {
+    return numlist.filter(num => num % n === 0);
+  }
+ */
