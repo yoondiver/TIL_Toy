@@ -5,6 +5,35 @@
  */
 
 function solution(n) {
-  var answer = 0;
+  let answer = 0;
+  let num = String(n);
+
+  for (let i = 0; i < num.length; i++) {
+    answer += Number(num[i]);
+  }
+
   return answer;
 }
+
+/**
+ * function solution(n) {
+ *  return n
+    .toString()
+    .split("")
+    .reduce((acc, cur) => acc + Number(cur), 0);
+  }
+ */
+
+/**
+   * function solution(n) {
+    let result = 0;
+
+    while (n > 0) {
+        result += n % 10;
+
+        n = Math.floor(n/10);
+    }
+
+    return result;
+}
+   */
