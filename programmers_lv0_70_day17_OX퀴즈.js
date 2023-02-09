@@ -8,6 +8,10 @@
  */
 
 function solution(quiz) {
-  var answer = [];
+  let answer = [];
+  quiz.map(function (q) {
+    let sol = q.split("=");
+    eval(sol[0]) === Number(sol[1]) ? answer.push("O") : answer.push("X");
+  });
   return answer;
 }
