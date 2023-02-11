@@ -4,6 +4,5 @@
  */
 
 function solution(n, t) {
-  var answer = 0;
-  return answer;
+  return n * Math.pow(2, t);
 }
