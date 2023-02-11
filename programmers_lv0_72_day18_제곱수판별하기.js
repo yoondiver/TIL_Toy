@@ -4,6 +4,17 @@
 */
 
 function solution(n) {
-  var answer = 0;
+  let answer = 0;
+  if (Math.sqrt(n) % 1 !== 0) {
+    answer = 2;
+  } else {
+    answer = 1;
+  }
   return answer;
 }
+
+/**
+ * function solution(n) {
+  return Number.isInteger(Math.sqrt(n)) ? 1 : 2;
+}
+ */
