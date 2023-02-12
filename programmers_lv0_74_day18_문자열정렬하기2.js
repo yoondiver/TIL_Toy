@@ -7,3 +7,9 @@ function solution(my_string) {
   const answer = my_string.toLowerCase().split("").sort().join("");
   return answer;
 }
+
+/*
+function solution(s) {
+    return [...s.toLowerCase()].sort().join('')
+}
+*/
