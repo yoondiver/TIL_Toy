@@ -4,6 +4,17 @@
  */
 
 function solution(my_str, n) {
-  var answer = [];
-  return answer;
+  let array = [];
+
+  for (i = 0; i < my_str.length; i += n) {
+    array.push(my_str.slice(i, i + n));
+  }
+  return array;
 }
+
+/** 
+ * 
+ * function solution(my_str, n) {
+  return my_str.match(new RegExp(`.{1,${n}}`, "g"));
+}
+ */
