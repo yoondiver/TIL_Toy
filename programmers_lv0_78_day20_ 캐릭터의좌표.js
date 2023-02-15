@@ -5,6 +5,24 @@
  */
 
 function solution(keyinput, board) {
-  var answer = [];
+  board[0] = parseInt(board[0] / 2);
+  board[1] = parseInt(board[1] / 2);
+  let answer = [0, 0];
+  keyinput.map((dir) => {
+    switch (dir) {
+      case "left":
+        answer[0] === board[0] * -1 ? board[0] * -1 : answer[0]--;
+        break;
+      case "right":
+        answer[0] === board[0] ? board[0] : answer[0]++;
+        break;
+      case "up":
+        answer[1] === board[1] ? board[1] : answer[1]++;
+        break;
+      case "down":
+        answer[1] === board[1] * -1 ? board[1] * -1 : answer[1]--;
+        break;
+    }
+  });
   return answer;
 }
