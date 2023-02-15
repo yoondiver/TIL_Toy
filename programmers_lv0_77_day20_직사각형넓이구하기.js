@@ -20,3 +20,17 @@ function solution(dots) {
     len1 === s ? len2 * len3 : len2 === s ? len1 * len3 : len1 * len2;
   return answer;
 }
+
+/**
+ * function solution(dots) {
+    let x = [],
+        y = [];
+
+    for (let pos of dots) {
+        x.push(pos[0]);
+        y.push(pos[1]);
+    }
+
+    return (Math.max(...x) - Math.min(...x)) * (Math.max(...y) - Math.min(...y))
+  }
+ */
