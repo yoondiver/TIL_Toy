@@ -6,7 +6,9 @@
  * return하도록 solution 함수를 완성해주세요.
  */
 
-function solution(numbers) {
-  numbers.sort((a, b) => b - a);
-  return numbers[0] * numbers[1];
+/**
+ * function solution(numbers) {
+    numbers.sort((a, b) => a - b);
+    return Math.max(numbers[0]*numbers[1], numbers[numbers.length-1]*numbers[numbers.length-2]);
 }
+ */
