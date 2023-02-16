@@ -6,6 +6,20 @@
  * return하도록 solution 함수를 완성해주세요.
  */
 
+function solution(numbers) {
+  let answer = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    for (let j = 0; j < numbers.length; j++) {
+      if (i !== j) {
+        answer.push(numbers[i] * numbers[j]);
+      }
+    }
+  }
+
+  return Math.max(...answer);
+}
+
 /**
  * function solution(numbers) {
     numbers.sort((a, b) => a - b);
