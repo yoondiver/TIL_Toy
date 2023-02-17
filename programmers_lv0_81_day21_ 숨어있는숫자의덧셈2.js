@@ -11,3 +11,9 @@ function solution(my_string) {
 
   return num ? num.map((a) => Number(a)).reduce((acc, cur) => acc + cur, 0) : 0; // 37
 }
+
+/**
+ * function solution(my_string) {
+  return my_string.split(/\D+/).reduce((acc, cur) => acc + Number(cur), 0);
+}
+ */
