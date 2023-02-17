@@ -7,6 +7,7 @@
  */
 
 function solution(my_string) {
-  var answer = 0;
-  return answer;
+  const num = my_string.match(/[0-9]+/g); // [ '1', '2', '34' ]
+
+  return num ? num.map((a) => Number(a)).reduce((acc, cur) => acc + cur, 0) : 0; // 37
 }
