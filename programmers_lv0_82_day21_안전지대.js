@@ -7,6 +7,32 @@
  */
 
 function solution(board) {
-  var answer = 0;
+  let answer = 0; // return값 초기화.
+  // 모서리 부분의 요소들의 오류를 방지하기 위해 패딩을 입히기.
+  board.unshift(new Array(board.length + 2).fill(-1)); // 윗부분 패딩
+  board.push(new Array(board.length + 2).fill(-1)); // 아랫부분 패딩
+  // 왼쪽, 오른쪽에 패딩
+  for (i = 1; i < board.length - 1; i++) {
+    board[i].unshift(-1);
+    board[i].push(-1);
+  }
+  // 원소를 포함한 9개의 위치에서 1을 발견하면 리턴값에 +1 허는 루프.
+  for (i = 1; i < board.length - 1; i++) {
+    for (j = 1; j < board.length - 1; j++) {
+      [
+        board[i - 1][j - 1],
+        board[i - 1][j],
+        board[i - 1][j + 1],
+        board[i][j - 1],
+        board[i][j],
+        board[i][j + 1],
+        board[i + 1][j - 1],
+        board[i + 1][j],
+        board[i + 1][j + 1],
+      ].includes(1)
+        ? answer
+        : (answer += 1);
+    }
+  }
   return answer;
 }
