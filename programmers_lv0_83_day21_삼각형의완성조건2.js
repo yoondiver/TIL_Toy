@@ -11,3 +11,9 @@ function solution(sides) {
   const [a, b] = sides.sort((a, b) => b - a);
   return 2 * b - 1;
 }
+
+/**
+ * function solution(sides) {
+    return Math.min(...sides)*2-1
+}
+ */
