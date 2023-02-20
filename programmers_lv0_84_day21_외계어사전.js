@@ -5,8 +5,12 @@
  */
 
 function solution(spell, dic) {
-  var answer = 0;
-  return answer;
+  const result = dic.filter(
+    (v) => [...v].sort().join("") === spell.sort().join("")
+  );
+  // spell과 dic을 알파벳 사전순으로 배열.문자열로 만들어서 비교
+  return result.length === 0 ? 2 : 1;
+  // 길이가 0이라면 조건 만족하는 dic 원소가 없으니까 2 리턴, 아니라면 있는 거니까 1 리턴
 }
 
 /**
