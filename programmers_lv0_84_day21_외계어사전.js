@@ -8,3 +8,9 @@ function solution(spell, dic) {
   var answer = 0;
   return answer;
 }
+
+/**
+ * function solution(spell, dic) {
+    return dic.filter(v=>spell.every(c=>v.includes(c))).length ? 1 : 2;
+  }
+ */
