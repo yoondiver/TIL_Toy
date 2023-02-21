@@ -30,3 +30,11 @@ function solution(n) {
   const noThreeVillNums = noThreeVill.filter((c) => c !== "3x"); // '3x'인 요소 필터.
   return noThreeVillNums[n - 1];
 }
+
+/**
+ * function solution(n) {
+  return [...new Array(n * 3)] // 빈 배열에 확산연산자 이용.
+    .map((_, i) => i + 1)
+    .filter((v) => v % 3 !== 0 && !v.toString().includes('3'))[n - 1];
+}
+ */
