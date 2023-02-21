@@ -15,6 +15,18 @@
  */
 
 function solution(n) {
-  var answer = 0;
-  return answer;
+  function noThree(v, i) {
+    if (
+      (i + 1) % 3 === 0 || // 3의 배수.
+      (i + 1) % 10 === 3 || // 두자리 수에서 3을 이용하는 수.
+      ((i + 1) % 100 >= 30 && (i + 1) % 100 <= 39) // 세자리 수에서 3을 이용하는 수.
+    ) {
+      return (i = "3x");
+    }
+    return (v = i + 1);
+  }
+  const noThreeVill = new Array(186).fill(0).map(noThree);
+  // 186개 수중 100개가 남음.
+  const noThreeVillNums = noThreeVill.filter((c) => c !== "3x"); // '3x'인 요소 필터.
+  return noThreeVillNums[n - 1];
 }
