@@ -5,6 +5,23 @@ lines가 [[0, 2], [-3, -1], [-2, 1]]일 때 그림으로 나타내면 다음과 
  */
 
 function solution(lines) {
-  var answer = 0;
-  return answer;
+  const start = lines.map((v) => v[0]);
+  const end = lines.map((v) => v[1]);
+
+  let count = 0;
+  let intersection = 0;
+
+  for (let i = Math.min(...start); i <= Math.max(...end); i++) {
+    for (let j = 0; j < lines.length; j++) {
+      if (i >= start[j] && i < end[j]) {
+        count++;
+      }
+    }
+    if (count >= 2) {
+      intersection++;
+    }
+    count = 0;
+  }
+
+  return intersection;
 }
