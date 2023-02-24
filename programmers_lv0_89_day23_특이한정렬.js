@@ -6,8 +6,14 @@
  */
 
 function solution(numlist, n) {
-  var answer = [];
-  return answer;
+  return numlist
+    .map((i) => i - n)
+    .sort((a, b) => {
+      return Math.abs(a) < Math.abs(b) || (Math.abs(a) === Math.abs(b) && a > b)
+        ? -1
+        : 1;
+    })
+    .map((i) => i + n);
 }
 
 /**
