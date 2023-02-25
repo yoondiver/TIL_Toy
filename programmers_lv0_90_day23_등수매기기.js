@@ -3,6 +3,17 @@
  */
 
 function solution(score) {
-  var answer = [];
-  return answer;
+  let avg = score.map((v) => (v[0] + v[1]) / 2);
+  let sorted = avg.slice().sort((a, b) => b - a);
+  return avg.map((v) => sorted.indexOf(v) + 1);
 }
+
+/**
+ * function solution(score) {
+  return score.map((el) => {
+    return (
+      score.filter((v) => (v[0] + v[1]) / 2 > (el[0] + el[1]) / 2).length + 1
+    );
+  });
+}
+ */
