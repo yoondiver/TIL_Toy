@@ -11,3 +11,11 @@ function solution(id_pw, db) {
     return userData[1] == id_pw[1] ? "login" : "wrong pw";
   } else return "fail";
 }
+
+/*
+function solution(id_pw, db) {
+  const [id, pw] = id_pw;
+  const map = new Map(db);
+  return map.has(id) ? (map.get(id) === pw ? "login" : "wrong pw") : "fail";
+}
+*/
