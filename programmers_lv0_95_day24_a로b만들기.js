@@ -5,6 +5,12 @@
  */
 
 function solution(before, after) {
-  var answer = 0;
-  return answer;
+  let answer = [...before].map((x) => (after = after.replace(x, "")));
+  return answer[answer.length - 1] === "" ? 1 : 0;
 }
+
+/*
+function solution(before, after) {
+  return before.split('').sort().join('') === after.split('').sort().join('') ? 1 : 0;
+}
+*/
