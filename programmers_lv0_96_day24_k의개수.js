@@ -3,6 +3,9 @@
  */
 
 function solution(i, j, k) {
-  var answer = 0;
-  return answer;
+  let a = "";
+  for (i; i <= j; i++) {
+    a += i;
+  }
+  return a.split(k).length - 1;
 }
