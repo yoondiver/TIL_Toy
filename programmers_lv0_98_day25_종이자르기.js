@@ -7,6 +7,19 @@
  */
 
 function solution(M, N) {
-  var answer = 0;
+  let answer = 0;
+  answer = M * N - 1;
   return answer;
 }
+
+/**
+ * function solution(M, N) {
+    return M*N-1;
+}
+ */
+
+/**
+ * function solution(M, N) {
+    return (M-1)+M*(N-1);
+}
+ */
