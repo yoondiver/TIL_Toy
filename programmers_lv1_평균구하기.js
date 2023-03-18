@@ -3,6 +3,9 @@
  */
 
 function solution(arr) {
-  var answer = 0;
-  return answer;
+  return (
+    arr.reduce((sum, curr) => {
+      return sum + curr;
+    }) / arr.length
+  );
 }
