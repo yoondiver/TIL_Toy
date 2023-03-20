@@ -4,5 +4,14 @@
 
 function solution(n) {
   var answer = 0;
+
+  for (let i = 1; i <= n; i++) {
+    for (let j = n; j > 0; j--) {
+      if (i * j == n) {
+        answer += i;
+      }
+    }
+  }
+
   return answer;
 }
