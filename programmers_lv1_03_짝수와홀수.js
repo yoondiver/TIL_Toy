@@ -3,6 +3,19 @@
  */
 
 function solution(num) {
-  var answer = "";
+  if (num % 2 === 0) {
+    //num을 2로 나눈 나머지가 0 이면
+    return (answer = "Even"); // 짝수
+  } else {
+    // 그렇지 않으면
+    return (answer = "Odd"); // 홀수
+  }
   return answer;
 }
+
+/**
+ * 
+ * function evenOrOdd(num) {
+  return num % 2 ? "Odd" : "Even"
+}
+ */
