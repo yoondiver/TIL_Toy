@@ -4,17 +4,19 @@
  */
 
 function solution(n) {
-  var answer = 0;
+  let answer = 0;
+  let num = String(n);
 
-  // [실행] 버튼을 누르면 출력 값을 볼 수 있습니다.
-  console.log("Hello Javascript");
+  for (let i = 0; i < num.length; i++) {
+    answer += Number(num[i]);
+  }
 
   return answer;
 }
 
 /*
-function solution(n){
-    // 쉬운방법
-    return (n+"").split("").reduce((acc, curr) => acc + parseInt(curr), 0)
+function solution(n) {
+  // 쉬운방법
+  return (n + "").split("").reduce((acc, curr) => acc + parseInt(curr), 0);
 }
 */
