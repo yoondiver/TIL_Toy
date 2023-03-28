@@ -4,6 +4,9 @@ n이 양의 정수 x의 제곱이라면 x+1의 제곱을 리턴하고, n이 양�
  */
 
 function solution(n) {
-  var answer = 0;
-  return answer;
+  const number = Math.sqrt(n);
+  // n의 제곱값을 return해주는 Math.sqrt() => 결과값이 음수라면 -1로 리턴.
+  return number % 1 === 0 ? Math.pow(number + 1, 2) : -1;
+  // number를 정수인지 확인.. => Number.isInteger(number)로 사용 가능,
+  // Math.pow(number+1, 2) => **연산자로도 사용 가능
 }
