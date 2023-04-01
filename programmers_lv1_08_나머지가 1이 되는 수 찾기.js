@@ -5,6 +5,9 @@
  */
 
 function solution(n) {
-  var answer = 0;
-  return answer;
+  for (i = 0; i < n; i += 1) {
+    if (n % i === 1) {
+      return i;
+    }
+  }
 }
