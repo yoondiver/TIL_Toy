@@ -4,6 +4,11 @@
  */
 
 function solution(n) {
-  var answer = [];
+  let answer = [];
+  let tmp = String(n).split("").reverse();
+
+  for (let x of tmp) {
+    answer.push(Number(x));
+  }
   return answer;
 }
