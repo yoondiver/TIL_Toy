@@ -3,14 +3,15 @@
 */
 
 function solution(x) {
-  var answer = true;
-  return answer;
+  let sum = x
+    .toString()
+    .split("")
+    .reduce((acc, cur) => acc + Number(cur), 0);
+  return x % sum ? false : true;
 }
 
 /**
-function solution(x) {
-  var answer = true;
-  return answer;
+ * function solution(x) {
+    return x%eval([...x.toString()].join("+")) ? false : true;
 }
-
  */
