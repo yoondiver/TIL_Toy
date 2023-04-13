@@ -43,6 +43,7 @@ function solution(num) {
   return answer;
 }
 
+/*
 function solution(num) {
   var count = 0;
 
@@ -56,7 +57,9 @@ function solution(num) {
 
   return -1;
 }
+*/
 
+/*
 function solution(num) {
   let counter = 0;
   while (num !== 1) {
@@ -65,3 +68,4 @@ function solution(num) {
   }
   return counter;
 }
+*/
