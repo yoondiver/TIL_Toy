@@ -8,5 +8,37 @@
 
 function solution(num) {
   var answer = 0;
+
+  let i = 0;
+
+  while (true) {
+    i++;
+    answer = i;
+
+    if (num == 1) {
+      // num이 1일 때 0 반환
+      answer = 0;
+      break;
+    } else if (num % 2 == 0) {
+      // num이 짝수
+      num = num / 2;
+      if (num == 1) {
+        break;
+      } else if (answer == 500) {
+        answer = -1;
+        break;
+      }
+    } else if (num % 2 == 1) {
+      // num이 홀수
+      num = num * 3 + 1;
+      if (num == 1) {
+        break;
+      } else if (answer == 500) {
+        answer = -1;
+        break;
+      }
+    }
+  }
+
   return answer;
 }
