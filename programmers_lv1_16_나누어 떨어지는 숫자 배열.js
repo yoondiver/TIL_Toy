@@ -5,5 +5,23 @@ divisor로 나누어 떨어지는 element가 하나도 없다면 배열에 -1을
 
 function solution(arr, divisor) {
   var answer = [];
+
+  // map()함수
+  // map((item, index) => {});
+  arr.map((v, i) => {
+    if (v % divisor == 0) {
+      answer.push(v);
+    }
+  });
+
+  // 오름차순(asc)정렬 (낮 -> 높)
+  answer.sort(function (a, b) {
+    return a - b;
+  });
+
+  if (answer.length == 0) {
+    answer.push(-1);
+  }
+
   return answer;
 }
