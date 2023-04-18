@@ -5,5 +5,13 @@
 
 function solution(phone_number) {
   var answer = "";
+  const phoneNumberlength = phone_number.length;
+  for (let i = 0; i < phoneNumberlength; i++) {
+    if (i < phoneNumberlength - 4) {
+      answer += "*";
+    } else {
+      answer += phone_number[i];
+    }
+  }
   return answer;
 }
