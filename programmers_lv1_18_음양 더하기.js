@@ -12,7 +12,8 @@ function solution(absolutes, signs) {
   );
 }
 
-function solution(absolutes, signs) {
+/**
+ * function solution(absolutes, signs) {
   let answer = 0;
   absolutes.forEach((v, i) => {
     if (signs[i]) {
@@ -23,3 +24,4 @@ function solution(absolutes, signs) {
   });
   return answer;
 }
+*/
