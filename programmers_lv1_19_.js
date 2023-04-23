@@ -4,5 +4,6 @@
 
 function solution(arr) {
   var answer = [];
-  return answer;
+
+  let min = Math.min(...arr);
 }
