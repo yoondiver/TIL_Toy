@@ -6,4 +6,6 @@ function solution(arr) {
   var answer = [];
 
   let min = Math.min(...arr);
+
+  arr.map((v, i) => {});
 }
