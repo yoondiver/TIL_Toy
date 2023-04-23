@@ -17,4 +17,6 @@ function solution(arr) {
     answer.push(-1);
   } else {
   }
+
+  return answer;
 }
