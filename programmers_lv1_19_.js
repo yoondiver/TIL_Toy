@@ -7,5 +7,9 @@ function solution(arr) {
 
   let min = Math.min(...arr);
 
-  arr.map((v, i) => {});
+  arr.map((v, i) => {
+    if (!(v == min)) {
+      answer.push(v);
+    }
+  });
 }
