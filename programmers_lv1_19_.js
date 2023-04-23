@@ -12,4 +12,9 @@ function solution(arr) {
       answer.push(v);
     }
   });
+
+  if (arr.length == 1) {
+    answer.push(-1);
+  } else {
+  }
 }
