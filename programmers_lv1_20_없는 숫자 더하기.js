@@ -6,6 +6,7 @@ function solution(numbers) {
   let answer = (9 * (9 + 1)) / 2;
 
   for (let num of numbers) {
-    answer += num;
+    answer -= num;
   }
+  return answer;
 }
