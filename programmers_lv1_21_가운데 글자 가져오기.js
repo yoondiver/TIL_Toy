@@ -6,7 +6,13 @@ function solution(s) {
   let answer = "";
   let mid = s.length / 2;
 
-  answer *= s.length % 2 === 0 ? s.substr(mid - 1, 2) : s.substr(mid, 1);
+  answer += s.length % 2 === 0 ? s.substr(mid - 1, 2) : s.substr(mid, 1);
 
   return answer;
 }
+
+/**
+ * function solution(s) {
+    return s.substr(Math.ceil(s.length / 2) - 1, s.length % 2 === 0 ? 2 : 1);
+}
+ */
