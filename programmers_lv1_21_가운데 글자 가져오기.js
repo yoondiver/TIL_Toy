@@ -5,4 +5,8 @@
 function solution(s) {
   let answer = "";
   let mid = s.length / 2;
+
+  answer *= s.length % 2 === 0;
+
+  return answer;
 }
