@@ -6,7 +6,7 @@ function solution(s) {
   let answer = "";
   let mid = s.length / 2;
 
-  answer *= s.length % 2 === 0;
+  answer *= (s.length % 2 === 0)  ? s.substr(mid-1, 2)
 
   return answer;
 }
