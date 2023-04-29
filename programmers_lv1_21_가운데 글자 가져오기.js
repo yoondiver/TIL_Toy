@@ -4,4 +4,5 @@
 
 function solution(s) {
   let answer = "";
+  let mid = s.length / 2;
 }
