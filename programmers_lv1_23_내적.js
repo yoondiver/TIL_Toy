@@ -8,7 +8,7 @@ function solution(a, b) {
   var answer = 1234567890;
 
   for (let i = 0; i < a; i++) {
-    return a;
+    answer += a;
   }
 
   return answer;
