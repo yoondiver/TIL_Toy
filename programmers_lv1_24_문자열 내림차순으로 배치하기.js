@@ -4,6 +4,6 @@ s는 영문 대소문자로만 구성되어 있으며, 대문자는 소문자보
  */
 
 function solution(s) {
-  let answer = s.split.sort().reverse();
+  let answer = s.split.sort().reverse().join();
   return answer;
 }
