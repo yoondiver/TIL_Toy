@@ -19,4 +19,10 @@ function solution(left, right) {
   }
 
   let result = 0;
+
+  for (let j = 0; j <= right; j++) {
+    if (dcn(j) % 2 === 0) {
+      result = result + j;
+    }
+  }
 }
