@@ -10,9 +10,13 @@ function solution(left, right) {
     for (let i = 1; i <= sqrt; i++) {
       if (i * i === num) {
         cnt++;
+      } else if (num % i === 0) {
+        cnt = cnt + 2;
       }
     }
 
     return cnt;
   }
+
+  let result = 0;
 }
