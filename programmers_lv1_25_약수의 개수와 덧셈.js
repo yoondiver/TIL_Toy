@@ -7,6 +7,12 @@ function solution(left, right) {
     let cnt = 0;
     let sqrt = Math.ceil(Math.sqrt(num));
 
+    for (let i = 1; i <= sqrt; i++) {
+      if (i * i === num) {
+        cnt++;
+      }
+    }
+
     return cnt;
   }
 }
