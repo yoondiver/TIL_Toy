@@ -4,6 +4,9 @@
 
 function solution(left, right) {
   function dcn(num) {
+    let cnt = 0;
+    let sqrt = Math.ceil(Math.sqrt(num));
+
     return cnt;
   }
 }
