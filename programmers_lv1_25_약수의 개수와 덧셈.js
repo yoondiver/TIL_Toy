@@ -23,6 +23,9 @@ function solution(left, right) {
   for (let j = 0; j <= right; j++) {
     if (dcn(j) % 2 === 0) {
       result = result + j;
+    } else {
+      result = result - j;
     }
   }
+  return result;
 }
