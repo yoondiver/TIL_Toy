@@ -12,5 +12,9 @@ function solution(price, money, count) {
     payment += price * i;
   }
 
+  if (payment > money) {
+    answer = payment - money;
+  }
+
   return answer;
 }
