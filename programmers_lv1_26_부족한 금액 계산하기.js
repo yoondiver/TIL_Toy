@@ -6,6 +6,11 @@
 
 function solution(price, money, count) {
   var answer = -1;
+  let payment = 0;
+
+  for (let i = 0; i < count; i++) {
+    payment += price * i;
+  }
 
   return answer;
 }
