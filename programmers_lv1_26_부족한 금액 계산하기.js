@@ -14,6 +14,8 @@ function solution(price, money, count) {
 
   if (payment > money) {
     answer = payment - money;
+  } else {
+    answer = 0;
   }
 
   return answer;
