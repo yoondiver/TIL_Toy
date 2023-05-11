@@ -8,10 +8,12 @@ function solution(price, money, count) {
   var answer = 0;
   let payment = 0;
 
+  // 놀이기구 가격 이용료 N배 계산
   for (let i = 0; i < count + 1; i++) {
     payment += price * i;
   }
 
+  // 지불할 돈이 가지고 있는 돈 보다 많을 때
   if (payment > money) {
     answer = payment - money;
   } else {
