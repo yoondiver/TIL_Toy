@@ -5,10 +5,10 @@
  */
 
 function solution(price, money, count) {
-  var answer = -1;
+  var answer = 0;
   let payment = 0;
 
-  for (let i = 0; i < count; i++) {
+  for (let i = 0; i < count + 1; i++) {
     payment += price * i;
   }
 
