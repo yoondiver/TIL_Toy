@@ -3,6 +3,6 @@
  */
 
 function solution(arr1, arr2) {
-  var answer = [[]];
-  return answer;
+  return arr1.map((row, indexOfRow) => {}
+  
 }
