@@ -4,7 +4,8 @@
 
 function solution(arr1, arr2) {
   return arr1.map((row, indexOfRow) => {
-    return row.map((col, indexOfCol) => {});
-    return arr2;
+    return row.map((col, indexOfCol) => {
+      return col + arr2[indexOfRow][indexOfCol];
+    });
   });
 }
