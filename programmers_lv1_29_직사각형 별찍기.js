@@ -7,7 +7,8 @@ process.stdin.setEncoding("utf8");
 process.stdin.on("data", (data) => {
   const n = data.split(" ");
   const col = Number(n[0]),
-    b = Number(n[1]);
+    row = Number(n[1]);
+  const str = `${"*".repeat(col)}\n`;
   console.log(a);
   console.log(b);
 });
