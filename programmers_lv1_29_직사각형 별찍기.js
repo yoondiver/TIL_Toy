@@ -8,7 +8,7 @@ process.stdin.on("data", (data) => {
   const n = data.split(" ");
   const col = Number(n[0]),
     row = Number(n[1]);
-  const str = `${"*".repeat(col)}\n`;
-  console.log(a);
+  const str = `${"*".repeat(col)}\n`.repeat(row);
+  console.log(str);
   console.log(b);
 });
