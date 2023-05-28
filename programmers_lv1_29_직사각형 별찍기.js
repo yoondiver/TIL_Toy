@@ -10,5 +10,4 @@ process.stdin.on("data", (data) => {
     row = Number(n[1]);
   const str = `${"*".repeat(col)}\n`.repeat(row);
   console.log(str);
-  console.log(b);
 });
