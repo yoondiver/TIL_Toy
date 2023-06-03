@@ -21,5 +21,5 @@ function solution(n, m) {
     }
   }
 
-  return answer;
+  return [...new Set(answer)];
 }
