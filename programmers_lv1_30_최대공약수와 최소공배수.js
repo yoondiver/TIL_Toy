@@ -3,5 +3,12 @@
  */
 
 function solution(n, m) {
+  let answer = [];
+
+  for (let i = 0; i < n; i++) {
+    if (m % n === 0) {
+      answer.push(n);
+    }
+  }
   return answer;
 }
