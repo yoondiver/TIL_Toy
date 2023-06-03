@@ -12,5 +12,13 @@ function solution(n, m) {
       answer.push(1);
     }
   }
+
+  for (let i = 0; i <= m; i++) {
+    if (m % n === 0) {
+      answer.push(m);
+    } else {
+      answer.push(n * m);
+    }
+  }
   return answer;
 }
