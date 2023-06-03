@@ -5,9 +5,11 @@
 function solution(n, m) {
   let answer = [];
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i <= n; i++) {
     if (m % n === 0) {
       answer.push(n);
+    } else {
+      answer.push(1);
     }
   }
   return answer;
