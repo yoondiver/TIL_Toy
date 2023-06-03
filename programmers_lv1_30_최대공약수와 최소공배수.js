@@ -20,5 +20,6 @@ function solution(n, m) {
       answer.push(n * m);
     }
   }
+
   return answer;
 }
