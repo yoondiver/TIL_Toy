@@ -30,5 +30,10 @@ function solution(n, m) {
 function solution(n, m) {
   let answer = [];
 
+  let G = 0;
+  let L = 0;
+
+  let num = n > m ? n : m;
+
   return answer;
 }
