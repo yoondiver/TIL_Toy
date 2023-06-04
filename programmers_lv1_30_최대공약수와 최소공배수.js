@@ -26,3 +26,9 @@ function solution(n, m) {
 }
 
 */
+
+function solution(n, m) {
+  let answer = [];
+
+  return answer;
+}
