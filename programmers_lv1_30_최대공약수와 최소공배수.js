@@ -30,7 +30,10 @@ function solution(n, m) {
 function solution(n, m) {
   let answer = [];
 
+  // 최대공약수
   let G = 0;
+
+  // 최소공배수
   let L = 0;
 
   let num = n > m ? n : m;
