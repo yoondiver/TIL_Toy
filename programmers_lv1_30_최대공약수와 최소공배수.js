@@ -38,7 +38,7 @@ function solution(n, m) {
 
   let num = n > m ? n : m;
 
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i <= num; i++) {
     if (n % m === 0) {
       G = i;
     }
