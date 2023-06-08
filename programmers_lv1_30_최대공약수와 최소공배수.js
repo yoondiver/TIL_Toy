@@ -38,5 +38,12 @@ function solution(n, m) {
 
   let num = n > m ? n : m;
 
+  //최대공약수 구하기
+  for (let i = 1; i <= num; i++) {
+    if (n % i === 0 && m % i === 0) {
+      G = i;
+    }
+  }
+
   return answer;
 }
