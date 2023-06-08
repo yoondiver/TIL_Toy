@@ -38,14 +38,9 @@ function solution(n, m) {
 
   let num = n > m ? n : m;
 
-<<<<<<< HEAD
   //최대공약수 구하기
   for (let i = 1; i <= num; i++) {
     if (n % i === 0 && m % i === 0) {
-=======
-  for (let i = 0; i <= num; i++) {
-    if (n % m === 0) {
->>>>>>> e41ac476087f0491b0fff24a5be975308392bb15
       G = i;
     }
   }
