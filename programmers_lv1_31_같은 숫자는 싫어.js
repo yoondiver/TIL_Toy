@@ -14,5 +14,5 @@ function solution(arr) {
       answer.push(arr[i]);
     }
   }
-  return arr.reduce(reducer, []);
+  return answer;
 }
