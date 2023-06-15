@@ -9,6 +9,8 @@ arr = [4, 4, 4, 3, 3] 이면 [4, 3] 을 return 합니다.
 function solution(arr) {
   var answer = [];
 
-  for (let i = 0; i < arr.length; i++) {}
+  for (let i = 0; i < arr.length; i++) {
+    if(arr[i] !== arr[i+1])
+  }
   return arr.reduce(reducer, []);
 }
