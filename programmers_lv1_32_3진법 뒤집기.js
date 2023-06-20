@@ -4,5 +4,6 @@
 
 function solution(n) {
   n = n.toString(3).split("");
-  return answer;
+
+  return parseInt(n, 3);
 }
