@@ -3,7 +3,7 @@
  */
 
 function solution(n) {
-  n = n.toString(3).split("");
+  n = n.toString(3).split("").reverse();
 
   return parseInt(n, 3);
 }
