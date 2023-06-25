@@ -18,5 +18,5 @@ function solution(n) {
  */
 
 function solution(n) {
-  return n.toString(3);
+  return n.toString(3).split();
 }
