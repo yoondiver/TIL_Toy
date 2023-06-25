@@ -16,3 +16,7 @@ function solution(n) {
     .reduce((acc, cur, i) => acc + cur * 3 ** i, 0);
 }
  */
+
+function solution(n) {
+  return n.toString(3);
+}
