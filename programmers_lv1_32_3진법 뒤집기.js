@@ -21,5 +21,5 @@ function solution(n) {
   return n
     .toString(3)
     .split("")
-    .reduce((acc, cur, i));
+    .reduce((acc, cur, i) => acc + cur);
 }
