@@ -18,5 +18,8 @@ function solution(n) {
  */
 
 function solution(n) {
-  return n.toString(3).split();
+  return n
+    .toString(3)
+    .split("")
+    .reduce((acc, cur, i));
 }
