@@ -23,3 +23,5 @@ function solution(n) {
     .split("")
     .reduce((acc, cur, i) => acc + cur * 3 * i, 0);
 }
+
+function solution(n) {}
