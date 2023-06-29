@@ -24,4 +24,6 @@ function solution(n) {
     .reduce((acc, cur, i) => acc + cur * 3 * i, 0);
 }
 
-function solution(n) {}
+function solution(n) {
+  return result;
+}
