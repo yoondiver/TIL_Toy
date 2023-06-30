@@ -27,5 +27,9 @@ function solution(n) {
 function solution(n) {
   const result = [];
 
+  while (n !== 0) {
+    result;
+  }
+
   return result.reduce;
 }
