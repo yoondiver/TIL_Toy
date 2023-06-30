@@ -28,7 +28,7 @@ function solution(n) {
   const result = [];
 
   while (n !== 0) {
-    result;
+    result.unshift(n % 3);
   }
 
   return result.reduce;
