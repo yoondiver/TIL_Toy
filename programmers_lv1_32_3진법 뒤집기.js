@@ -25,5 +25,7 @@ function solution(n) {
 }
 
 function solution(n) {
-  return result;
+  const result = [];
+
+  return result.reduce;
 }
