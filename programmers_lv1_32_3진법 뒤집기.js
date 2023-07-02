@@ -29,7 +29,7 @@ function solution(n) {
 
   while (n !== 0) {
     result.unshift(n % 3);
-    n = Math.floor;
+    n = Math.floor(n / 3);
   }
 
   return result.reduce;
