@@ -32,5 +32,5 @@ function solution(n) {
     n = Math.floor(n / 3);
   }
 
-  return result.reduce;
+  return result.reduce((acc, cur));
 }
