@@ -26,6 +26,7 @@ function solution(n) {
 }
 */
 
+/*
 function solution(n) {
   const result = [];
 
@@ -36,3 +37,4 @@ function solution(n) {
 
   return result.reduce((acc, cur, i) => acc + cur * 3 ** i, 0);
 }
+*/
