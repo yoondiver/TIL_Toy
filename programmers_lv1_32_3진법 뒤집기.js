@@ -38,3 +38,7 @@ function solution(n) {
   return result.reduce((acc, cur, i) => acc + cur * 3 ** i, 0);
 }
 */
+
+function solution(n) {
+  return answer;
+}
