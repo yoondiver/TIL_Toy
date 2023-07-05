@@ -40,5 +40,6 @@ function solution(n) {
 */
 
 function solution(n) {
+  n = n.toString(3);
   return answer;
 }
