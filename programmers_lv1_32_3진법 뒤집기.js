@@ -47,5 +47,5 @@ function solution(n) {
     answer = n;
   }
 
-  return parseInt;
+  return parseInt(answer);
 }
