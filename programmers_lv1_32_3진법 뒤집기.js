@@ -43,5 +43,9 @@ function solution(n) {
   n = n.toString(3);
   let answer = "";
 
+  for (let i = 0; i > 0; i--) {
+    answer = n;
+  }
+
   return parseInt;
 }
