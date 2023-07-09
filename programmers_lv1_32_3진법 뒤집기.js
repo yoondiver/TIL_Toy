@@ -43,9 +43,8 @@ function solution(n) {
   n = n.toString(3);
   let answer = "";
 
-  for (let i = 0; i > 0; i--) {
-    answer = n;
+  for (let i = n.length - 1; i >= 0; i--) {
+    answer += n[i];
   }
-
-  return parseInt(answer);
+  return parseInt(answer, 3);
 }
