@@ -39,6 +39,7 @@ function solution(n) {
 }
 */
 
+/*
 function solution(n) {
   n = n.toString(3);
   let answer = "";
@@ -48,3 +49,4 @@ function solution(n) {
   }
   return parseInt(answer, 3);
 }
+*/
