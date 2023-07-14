@@ -11,5 +11,7 @@ function solution(s) {
   var answer = "";
 
   // split() 함수 : 문자열 -> 배열로 바꿈
+
+  let arr = s.split(" ");
   return answer;
 }
