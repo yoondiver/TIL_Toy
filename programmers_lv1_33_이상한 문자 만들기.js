@@ -6,8 +6,10 @@
  */
 
 function solution(s) {
-  // 짝 toupper
-  // 홀 tolower
+  // 짝 toUpper
+  // 홀 toLower
   var answer = "";
+
+  // split() 함수 : 문자열 -> 배열로 바꿈
   return answer;
 }
