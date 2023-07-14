@@ -6,6 +6,8 @@
  */
 
 function solution(s) {
+  // 짝 toupper
+  // 홀 tolower
   var answer = "";
   return answer;
 }
