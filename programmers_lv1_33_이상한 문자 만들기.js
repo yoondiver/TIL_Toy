@@ -13,5 +13,7 @@ function solution(s) {
   let arr = s.split(" ");
   console.log(arr);
 
+  // 2차 배열
+
   return answer;
 }
