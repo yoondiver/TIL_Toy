@@ -6,12 +6,12 @@
  */
 
 function solution(s) {
-  // 짝 toUpper
-  // 홀 toLower
   var answer = "";
 
   // split() 함수 : 문자열 -> 배열로 바꿈
-
+  // [ 'try', 'hi', 'you' ]
   let arr = s.split(" ");
+  console.log(arr);
+
   return answer;
 }
