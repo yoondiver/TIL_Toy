@@ -14,6 +14,9 @@ function solution(s) {
   console.log(arr);
 
   // 2차 배열
+  // [[ 't', 'r', 'y' ],[ 'h', 'i' ],[ 'y', 'o', 'u' ]]
+  let arr1 = arr.map((v) => [...v]);
+  console.log(arr1);
 
   return answer;
 }
