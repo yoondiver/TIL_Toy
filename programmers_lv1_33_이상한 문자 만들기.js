@@ -18,5 +18,9 @@ function solution(s) {
   let arr1 = arr.map((v) => [...v]);
   console.log(arr1);
 
+  for (let i = 0; i < arr1.length; i++) {
+    answer = 0;
+  }
+
   return answer;
 }
