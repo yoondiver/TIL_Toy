@@ -11,12 +11,12 @@ function solution(s) {
   // split() 함수 : 문자열 -> 배열로 바꿈
   // [ 'try', 'hi', 'you' ]
   let arr = s.split(" ");
-  console.log(arr);
+  // console.log(arr);
 
   // 2차 배열
   // [[ 't', 'r', 'y' ],[ 'h', 'i' ],[ 'y', 'o', 'u' ]]
   let arr1 = arr.map((v) => [...v]);
-  console.log(arr1);
+  // console.log(arr1);
 
   for (let i = 0; i < arr1.length; i++) {
     answer = 0;
