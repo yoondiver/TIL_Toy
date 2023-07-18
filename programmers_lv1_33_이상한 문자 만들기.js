@@ -20,7 +20,7 @@ function solution(s) {
 
   for (let i = 0; i < arr1.length; i++) {
     if (j % 2 == 0) {
-      answer += arr;
+      answer += arr1[i][j];
     }
   }
 
