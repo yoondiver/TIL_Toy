@@ -19,7 +19,9 @@ function solution(s) {
   // console.log(arr1);
 
   for (let i = 0; i < arr1.length; i++) {
-    answer = 0;
+    if (j % 2 == 0) {
+      answer;
+    }
   }
 
   return answer;
