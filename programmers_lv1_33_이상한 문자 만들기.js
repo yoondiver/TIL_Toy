@@ -22,6 +22,7 @@ function solution(s) {
     if (j % 2 == 0) {
       answer += arr1[i][j].toUpperCase();
     } else {
+      answer = arr;
     }
   }
 
