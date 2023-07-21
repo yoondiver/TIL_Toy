@@ -27,6 +27,8 @@ function solution(s) {
     } else {
       answer = arr[i][j].toUpperCase();
     }
+
+    answer = " ";
   }
 
   return answer;
