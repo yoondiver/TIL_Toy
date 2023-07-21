@@ -28,7 +28,7 @@ function solution(s) {
       answer += arr1[i][j].toLowerCase();
     }
 
-    answer = " ";
+    answer += " ";
   }
 
   return answer;
