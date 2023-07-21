@@ -8,6 +8,9 @@
 function solution(s) {
   var answer = "";
 
+  // 짝수 toUpperCase()
+  // 홀수 toLowerCase()
+
   // split() 함수 : 문자열 -> 배열로 바꿈
   // [ 'try', 'hi', 'you' ]
   let arr = s.split(" ");
