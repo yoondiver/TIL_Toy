@@ -22,12 +22,13 @@ function solution(s) {
   // console.log(arr1);
 
   for (let i = 0; i < arr1.length; i++) {
-    if (j % 2 == 0) {
-      answer += arr1[i][j].toUpperCase();
-    } else {
-      answer += arr1[i][j].toLowerCase();
+    for (let j = 0; j < arr1[i].length; j++) {
+      if (j % 2 == 0) {
+        answer += arr1[i][j].toUpperCase();
+      } else {
+        answer += arr1[i][j].toLowerCase();
+      }
     }
-
     answer += " ";
   }
 
