@@ -32,5 +32,8 @@ function solution(s) {
     answer += " ";
   }
 
+  // 마지막 공백제거
+  answer = answer;
+
   return answer;
 }
