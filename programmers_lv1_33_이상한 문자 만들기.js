@@ -33,7 +33,7 @@ function solution(s) {
   }
 
   // 마지막 공백제거
-  answer = answer.substring;
+  answer = answer.substring(0, answer.length - 1);
 
   return answer;
 }
