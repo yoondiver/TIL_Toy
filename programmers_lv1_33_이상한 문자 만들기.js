@@ -37,3 +37,17 @@ function solution(s) {
 
   return answer;
 }
+
+/*
+function solution(s) {
+  let arr = s.split(" ");
+  return arr.map(v => {
+      let newStr="", num=0;
+      for(let str of v){
+          newStr += !(num%2)? str.toUpperCase(): str.toLowerCase();
+          num++;
+      }
+      return newStr;
+  }).join(" ");
+}
+*/
