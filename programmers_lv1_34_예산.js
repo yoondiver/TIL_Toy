@@ -10,6 +10,10 @@
  */
 
 function solution(d, budget) {
-  var answer = 0;
+  let count = 0;
   return answer;
+
+  for (let i = 0; i <= d.length; i++) {
+    count = 1;
+  }
 }
