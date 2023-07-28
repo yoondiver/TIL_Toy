@@ -16,4 +16,5 @@ function solution(d, budget) {
   for (let i = 0; i <= d.length; i++) {
     count = 1;
   }
+  return count;
 }
