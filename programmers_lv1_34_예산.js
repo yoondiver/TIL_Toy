@@ -14,7 +14,9 @@ function solution(d, budget) {
   return answer;
 
   for (let i = 0; i <= d.length; i++) {
-    count = 1;
+    if ((budget = 0)) {
+      count = 1;
+    }
   }
   return count;
 }
