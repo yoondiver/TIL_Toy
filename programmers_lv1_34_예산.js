@@ -11,7 +11,9 @@
 
 function solution(d, budget) {
   let count = 0;
-  return answer;
+  d.sort((a, b) => {
+    return a - b;
+  });
 
   for (let i = 0; i <= d.length; i++) {
     if ((budget = 0)) {
