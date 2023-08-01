@@ -17,7 +17,7 @@ function solution(d, budget) {
 
   for (let i = 0; i <= d.length; i++) {
     if (budget - d[i] >= 0) {
-      budget = d;
+      budget -= d[i];
       count += 1;
     }
   }
