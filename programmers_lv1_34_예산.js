@@ -24,8 +24,7 @@ function solution(d, budget) {
   return count;
 }
 
-//
-function solution(d, budget) {
+/* function solution(d, budget) {
   var answer = 0;
   d.sort((a, b) => a - b);
   for (i = 0; i < d.length; i++) {
@@ -36,4 +35,4 @@ function solution(d, budget) {
   }
   return i;
 }
-//
+*/
