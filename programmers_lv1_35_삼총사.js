@@ -7,6 +7,7 @@
 */
 
 function solution(number) {
-  var answer = 0;
+  let result = 0;
+  for (let i = 0; i < number.length - 2; i++) {}
   return answer;
 }
