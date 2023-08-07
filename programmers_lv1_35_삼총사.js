@@ -8,6 +8,10 @@
 
 function solution(number) {
   let result = 0;
-  for (let i = 0; i < number.length - 2; i++) {}
+  for (let i = 0; i < number.length - 2; i++) {
+    for(let j= i ){
+      
+    }
+  }
   return answer;
 }
