@@ -10,7 +10,7 @@ function solution(number) {
   let result = 0;
   for (let i = 0; i < number.length - 2; i++) {
     for (let j = i; i < number.length; j++) {
-      if (number == 0) return (result = 1);
+      if (number === 0) return (result = 1);
     }
   }
   return answer;
