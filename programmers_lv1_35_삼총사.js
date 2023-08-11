@@ -11,7 +11,7 @@ function solution(number) {
   for (let i = 0; i < number.length - 2; i++) {
     for (let j = i + 1; j < number.length - 1; j++) {
       for (let k = j + 1; k < number.length; k++) {
-        const sum = number[i];
+        const sum = number[i] + number[j];
         if (number === 0) return (result = 1);
       }
     }
