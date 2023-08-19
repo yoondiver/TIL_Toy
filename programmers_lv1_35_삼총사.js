@@ -17,3 +17,21 @@ function solution(number) {
   }
   return result;
 }
+
+/*
+function solution(number) {
+    let result = 0;
+    let first = number.slice(0,number.length-2)
+    let second = number.slice(1,number.length-1)
+    let third = number.slice(2,number.length)
+    
+    for(let i=0;i<first.length;i++){
+        for(let j=i;j<first.length;j++){
+            for(let k=j;k<first.length;k++){
+                if( first[i] + second[j]+third[k] ==0) result += 1
+            }
+        }
+    }
+    return result
+}
+*/
