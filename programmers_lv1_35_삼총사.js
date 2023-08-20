@@ -35,3 +35,7 @@ function solution(number) {
     return result
 }
 */
+
+function solution(number) {
+  return result;
+}
