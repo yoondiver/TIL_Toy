@@ -44,6 +44,10 @@ function solution(number) {
       result += current.reduce((acc, cur) => acc + cur, 0);
       return;
     }
+
+    for (let i = start; i < number.length; i++) {
+      combination;
+    }
   };
   return result;
 }
