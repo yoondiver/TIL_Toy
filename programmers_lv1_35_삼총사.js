@@ -37,5 +37,14 @@ function solution(number) {
 */
 
 function solution(number) {
+
+  let result = 0;
+
+  const combination(current, start)=>{
+    if(current.length ===3){
+      result += current.reduce((acc,cur) =>acc+cur,0)
+      return
+    }
+  }
   return result;
 }
