@@ -49,5 +49,7 @@ function solution(number) {
       combination;
     }
   };
+
+  combination([], 0);
   return result;
 }
