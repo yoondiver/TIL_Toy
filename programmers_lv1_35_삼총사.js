@@ -41,7 +41,7 @@ function solution(number) {
 
   const combination = (current, start) => {
     if (current.length === 3) {
-      result += current.reduce((acc, cur) => acc + cur, 0);
+      result += current.reduce((acc, cur) => acc + cur, 0) === 0 ? 1 : 0;
       return;
     }
 
