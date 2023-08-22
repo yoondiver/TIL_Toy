@@ -46,7 +46,7 @@ function solution(number) {
     }
 
     for (let i = start; i < number.length; i++) {
-      combination(...current, number);
+      combination(...current, number, i);
     }
   };
 
