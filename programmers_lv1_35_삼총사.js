@@ -36,6 +36,7 @@ function solution(number) {
 }
 */
 
+/*
 function solution(number) {
   let result = 0;
 
@@ -53,3 +54,4 @@ function solution(number) {
   combination([], 0);
   return result;
 }
+*/
