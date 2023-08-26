@@ -18,6 +18,7 @@
 */
 
 function solution(sizes) {
+  let max = [0, 0];
   var answer = 0;
   return answer;
 }
