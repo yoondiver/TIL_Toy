@@ -19,7 +19,7 @@
 
 function solution(sizes) {
   let max = [0, 0];
-  let arr = sizes.map;
+  let arr = sizes.map([w, h]);
   var answer = 0;
   return answer;
 }
