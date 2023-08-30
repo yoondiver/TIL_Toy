@@ -21,5 +21,5 @@ function solution(sizes) {
   let max = [0, 0];
   let arr = sizes.map(([w, h]) => (w < h ? [h, w] : [w, h]));
   var answer = 0;
-  return answer;
+  return max;
 }
