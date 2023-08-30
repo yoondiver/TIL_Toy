@@ -22,7 +22,7 @@ function solution(sizes) {
   let arr = sizes.map(([w, h]) => (w < h ? [h, w] : [w, h]));
 
   for (let x of arr) {
-    if (x) max = 0;
+    if (x[0]) max = 0;
   }
   var answer = 0;
   return max;
