@@ -36,5 +36,9 @@ function solution(sizes) {
   let x_sizes = [];
   let y_sizes = [];
 
+  sizes.map((arr) => {
+    arr.sort((a, b) => b - a);
+  });
+
   return answer;
 }
