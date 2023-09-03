@@ -34,6 +34,7 @@ function solution(sizes) {
   var answer = 0;
 
   let x_sizes = [];
+  let y_sizes = [];
 
   return answer;
 }
