@@ -17,6 +17,7 @@
 
 */
 
+/*
 function solution(sizes) {
   let max = [0, 0];
   let arr = sizes.map(([w, h]) => (w < h ? [h, w] : [w, h]));
@@ -26,4 +27,13 @@ function solution(sizes) {
   }
   var answer = 0;
   return max;
+}
+*/
+
+function solution(sizes) {
+  var answer = 0;
+
+  let x_sizes = [];
+
+  return answer;
 }
