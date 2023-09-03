@@ -17,19 +17,17 @@
 
 */
 
-/*
 function solution(sizes) {
   let max = [0, 0];
   let arr = sizes.map(([w, h]) => (w < h ? [h, w] : [w, h]));
 
   for (let x of arr) {
     if (x[0] > max[0]) max[0] = x[0];
-        if (x[1] > max[1]) max[1] = x[1];
+    if (x[1] > max[1]) max[1] = x[1];
   }
   var answer = 0;
   return max;
 }
-*/
 
 function solution(sizes) {
   var answer = 0;
