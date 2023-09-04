@@ -29,6 +29,7 @@ function solution(sizes) {
   return max[0] + max[1];
 }
 
+/*
 function solution(sizes) {
   var answer = 0;
 
@@ -41,3 +42,4 @@ function solution(sizes) {
 
   return answer;
 }
+*/
