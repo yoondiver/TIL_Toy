@@ -26,7 +26,7 @@ function solution(sizes) {
     if (x[1] > max[1]) max[1] = x[1];
   }
   var answer = 0;
-  return max;
+  return max[0];
 }
 
 function solution(sizes) {
