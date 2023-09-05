@@ -37,6 +37,12 @@ function solution(sizes) {
   let y_sizes = [];
 
   sizes.map((arr) => {
+
+    // 직관적으로 세로길이가 가로 길이보다 길면 둘 자리를 바꾸려고 했는데
+        // if(arr[1] > arr[0]){
+        //     arr.splice(0, 0, arr[1])
+        //     arr.pop();
+        // }
     arr.sort((a, b) => b - a);
   });
 
