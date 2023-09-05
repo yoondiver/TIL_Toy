@@ -46,6 +46,8 @@ function solution(sizes) {
     arr.sort((a, b) => b - a);
   });
 
+  answer = Math.max
+
   return answer;
 }
 */
