@@ -12,7 +12,7 @@ function solution(t, p) {
   var answer = 0;
 
   for (var i = 0; i <= t.length - p.length; i++) {
-    answer;
+    answer.push(t.slice(i, i + p.length));
   }
   return answer;
 }
