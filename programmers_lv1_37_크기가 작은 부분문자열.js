@@ -18,8 +18,11 @@ function solution(t, p) {
   var answer1 = [];
 
   // 배열에 저장된 부분문자열과 p의 크기 비교
-  for (var j = 0; j < answer.length; j++) {
-    // tp -> answer로 수정
+  for (var j = 0; j < answer.length; j++) { // tp -> answer로 수정
+
+    if (answer[j] <= p) {
+      answer1.push
+    
     return result;
   }
 
