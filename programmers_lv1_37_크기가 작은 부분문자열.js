@@ -14,5 +14,7 @@ function solution(t, p) {
   for (var i = 0; i <= t.length - p.length; i++) {
     answer.push(t.slice(i, i + p.length));
   }
+
+  var answer1 = [];
   return answer;
 }
