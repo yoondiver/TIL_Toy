@@ -22,7 +22,7 @@ function solution(t, p) {
     // tp -> answer로 수정
 
     if (answer[j] <= p) {
-      answer1.push;
+      answer1.push(answer[j]);
     }
 
     return result;
