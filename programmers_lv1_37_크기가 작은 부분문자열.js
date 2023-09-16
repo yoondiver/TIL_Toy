@@ -9,8 +9,7 @@
  */
 
 function solution(t, p) {
-  var answer = 0;
-
+  var answer = [];
   for (var i = 0; i <= t.length - p.length; i++) {
     answer.push(t.slice(i, i + p.length));
   }
@@ -20,13 +19,12 @@ function solution(t, p) {
   // 배열에 저장된 부분문자열과 p의 크기 비교
   for (var j = 0; j < answer.length; j++) {
     // tp -> answer로 수정
-
     if (answer[j] <= p) {
       answer1.push(answer[j]);
     }
-
-    return result;
   }
 
-  return answer;
+  var result = answer1.length; // 결과 값을 저장
+
+  return result; // 결과 값 반환
 }
