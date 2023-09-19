@@ -41,3 +41,18 @@ function solution(t, p) {
 }
 
 */
+
+/*
+function solution(t, p) {
+    var answer = 0;
+
+    for(i=0; i<t.length-p.length+1; i++){
+        if(t.substr(i,p.length) <= p){
+            console.log(i)
+            answer++;
+        }
+    }
+
+    return answer;
+}
+*/
