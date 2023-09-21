@@ -4,5 +4,10 @@
 
 function solution(s, n) {
   var answer = "";
+
+  answer = s.split('').map(v => {
+    if (v==='') return v
+
+  }
   return answer;
 }
