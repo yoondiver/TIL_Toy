@@ -6,7 +6,9 @@ function solution(s, n) {
   var answer = "";
 
   answer = s.split("").map((v) => {
-    if (v === "") return v;
+    if (v === " ") return v;
+    // n을 더한 아스키코드 값이 Z를 넘어가면
+    return v.toUpperCase().charCodeAt() + n > 90;
   });
   return answer;
 }
