@@ -9,6 +9,8 @@ function solution(s, n) {
     if (v === " ") return v;
     // n을 더한 아스키코드 값이 Z를 넘어가면
     return v.toUpperCase().charCodeAt() + n > 90;
+    // 다시 A(a)부터 나오도록
+    ? String.fromCharCode(v.charCodeAt() + n - 26)
   }).join;
   return answer;
 }
