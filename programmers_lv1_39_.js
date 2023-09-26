@@ -10,3 +10,8 @@
 
 참고로 각 숫자에 대응되는 영단어는 다음 표와 같습니다.
 */
+
+function solution(s) {
+  var answer = 0;
+  return answer;
+}
