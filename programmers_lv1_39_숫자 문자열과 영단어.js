@@ -13,7 +13,7 @@
 */
 
 function solution(s) {
-  var answer = 0;
+  let answer = s;
 
   const words = [
     "zero",
