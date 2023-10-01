@@ -14,5 +14,19 @@
 
 function solution(s) {
   var answer = 0;
+
+  const words = [
+    "zero",
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven",
+    "eight",
+    "nine",
+  ];
+
   return answer;
 }
