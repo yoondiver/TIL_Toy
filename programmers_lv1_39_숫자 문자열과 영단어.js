@@ -28,5 +28,9 @@ function solution(s) {
     "nine",
   ];
 
+  for (let i = 0; i < words.length; i++) {
+    const word = words[i];
+  }
+
   return answer;
 }
