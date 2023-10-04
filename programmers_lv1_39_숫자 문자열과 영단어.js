@@ -30,6 +30,7 @@ function solution(s) {
 
   for (let i = 0; i < words.length; i++) {
     const word = words[i];
+    const reg = new RegExp(word, "g");
   }
 
   return answer;
