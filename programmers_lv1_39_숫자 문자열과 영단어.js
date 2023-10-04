@@ -35,5 +35,5 @@ function solution(s) {
     answer = answer.replace(reg, i);
   }
 
-  return answer;
+  return parseInt(answer);
 }
