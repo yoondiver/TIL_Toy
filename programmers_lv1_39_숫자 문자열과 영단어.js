@@ -40,3 +40,13 @@ function solution(s) {
 
 const testA = solutionA("one4seveneight");
 console.log(testA);
+
+/*
+function solution(s) {
+  ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+    .forEach((el, i) => {
+    if (s.includes(el)) s = s.replace(el, i);
+  });
+  return Number(s);
+}
+*/
