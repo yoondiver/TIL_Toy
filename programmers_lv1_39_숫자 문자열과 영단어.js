@@ -50,3 +50,14 @@ function solution(s) {
   return Number(s);
 }
 */
+
+/*
+const numbers = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+
+function solution(s) {
+    numbers.forEach((str,i)=>{
+        s = s.split(str).join(i)
+    })
+    return Number(s)
+}
+*/
