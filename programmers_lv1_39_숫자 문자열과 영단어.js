@@ -39,3 +39,4 @@ function solution(s) {
 }
 
 const testA = solutionA("one4seveneight");
+console.log(testA);
