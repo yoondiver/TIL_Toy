@@ -37,3 +37,5 @@ function solution(s) {
 
   return parseInt(answer);
 }
+
+const testA = solutionA("one4seveneight");
