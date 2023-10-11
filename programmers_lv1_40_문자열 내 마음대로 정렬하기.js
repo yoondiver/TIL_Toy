@@ -21,5 +21,10 @@ strings	n	return
 
 function solution(strings, n) {
   var answer = [];
+
+  let nStr = "";
+  strings.forEach((str, i) => {
+    nStr = str.substr(n, 1);
+  });
   return answer;
 }
