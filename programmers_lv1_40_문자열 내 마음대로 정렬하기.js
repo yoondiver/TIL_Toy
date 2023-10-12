@@ -25,6 +25,7 @@ function solution(strings, n) {
   let nStr = "";
   strings.forEach((str, i) => {
     nStr = str.substr(n, 1);
+    strings[i] = nStr + str;
   });
   return answer;
 }
