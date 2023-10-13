@@ -27,5 +27,6 @@ function solution(strings, n) {
     nStr = str.substr(n, 1);
     strings[i] = nStr + str;
   });
+  strings.sort();
   return answer;
 }
