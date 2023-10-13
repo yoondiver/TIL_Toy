@@ -28,5 +28,6 @@ function solution(strings, n) {
     strings[i] = nStr + str;
   });
   strings.sort();
-  return answer;
+
+  return strings;
 }
