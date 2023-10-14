@@ -25,6 +25,7 @@ function solution(strings, n) {
     nStr = str.substr(n, 1);
     strings[i] = nStr + str;
   });
+
   strings.sort();
   strings.forEach((str, i) => {
     nStr = str.substr(1);
