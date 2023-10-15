@@ -29,6 +29,7 @@ function solution(strings, n) {
   strings.sort();
   strings.forEach((str, i) => {
     nStr = str.substr(1);
+    strings[i] = nStr;
   });
 
   return strings;
