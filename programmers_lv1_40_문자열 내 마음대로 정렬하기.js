@@ -21,14 +21,18 @@ strings	n	return
 
 function solution(strings, n) {
   let nStr = "";
+
   strings.forEach((str, i) => {
     nStr = str.substr(n, 1);
     strings[i] = nStr + str;
   });
+
   strings.sort();
+
   strings.forEach((str, i) => {
     nStr = str.substr(1);
     strings[i] = nStr;
   });
+
   return strings;
 }
