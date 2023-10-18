@@ -15,3 +15,8 @@ a는 자신보다 두 칸, 네 칸 앞에 a가 있습니다. 이 중 가까운 �
 문자열 s이 주어질 때, 위와 같이 정의된 연산을 수행하는 함수 solution을 완성해주세요.
 
 */
+
+function solution(s) {
+  var answer = [];
+  return answer;
+}
