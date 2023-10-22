@@ -22,7 +22,9 @@ function solution(s) {
     let same = -1;
 
     for (let j = i - 1; j >= 0; j--) {
-      break;
+      if (s[i] === s[j]) {
+        break;
+      }
     }
   }
 
