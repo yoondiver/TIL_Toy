@@ -20,7 +20,10 @@ function solution(s) {
   let result = [];
   for (let i = 0; i < s.length; i++) {
     let same = -1;
-    break;
+
+    for (let j = i - 1; j >= 0; j--) {
+      break;
+    }
   }
 
   return result;
