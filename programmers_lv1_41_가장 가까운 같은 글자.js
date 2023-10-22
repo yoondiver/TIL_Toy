@@ -23,6 +23,7 @@ function solution(s) {
 
     for (let j = i - 1; j >= 0; j--) {
       if (s[i] === s[j]) {
+        same = i - j;
         break;
       }
     }
