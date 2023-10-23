@@ -27,6 +27,7 @@ function solution(s) {
         break;
       }
     }
+    result.push(same);
   }
 
   return result;
