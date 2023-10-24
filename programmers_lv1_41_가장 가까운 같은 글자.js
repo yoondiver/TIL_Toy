@@ -17,11 +17,11 @@ a는 자신보다 두 칸, 네 칸 앞에 a가 있습니다. 이 중 가까운 �
 */
 
 function solution(s) {
-  let answer = [];
+  //결과 출력 배열
+  let result = [];
 
   for (let i = 0; i < s.length; i++) {
     let same = -1;
-
     for (let j = i - 1; j >= 0; j--) {
       if (s[i] === s[j]) {
         same = i - j;
@@ -30,6 +30,5 @@ function solution(s) {
     }
     result.push(same);
   }
-
-  return answer;
+  return result;
 }
