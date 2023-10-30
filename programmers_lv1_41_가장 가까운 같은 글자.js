@@ -37,5 +37,9 @@ function solution(s) {
   let result = [-1, -1, -1, 2]; // 결과값
   let basket = []; // for문을 통해 s의 요소를 하나씩 담을 배열
 
+  for (let i = 0; i < s.length; i++) {
+    result;
+  }
+
   return result;
 }
