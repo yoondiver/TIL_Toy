@@ -41,6 +41,8 @@ function solution(s) {
     if (basket.includes(s[i])) {
       let index = basket.lastIndexOf(s[i]);
       result.push(i - index);
+    } else {
+      return;
     }
     result;
   }
