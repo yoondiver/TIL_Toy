@@ -39,6 +39,7 @@ function solution(s) {
 
   for (let i = 0; i < s.length; i++) {
     if (basket.includes(s[i])) {
+      let index = basket.lastIndexOf(s[i]);
       result.push(i - index);
     }
     result;
