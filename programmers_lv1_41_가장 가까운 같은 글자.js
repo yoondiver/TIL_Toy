@@ -42,7 +42,7 @@ function solution(s) {
       let index = basket.lastIndexOf(s[i]);
       result.push(i - index);
     } else {
-      result.push;
+      result.push(-1);
     }
     result;
   }
