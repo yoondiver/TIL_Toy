@@ -45,7 +45,7 @@ function solution(s) {
       result.push(-1);
     }
 
-    basket.
+    basket.push
 
   return result;
 }
