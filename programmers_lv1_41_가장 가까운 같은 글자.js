@@ -44,8 +44,8 @@ function solution(s) {
     } else {
       result.push(-1);
     }
-    result;
-  }
+
+    basket.
 
   return result;
 }
