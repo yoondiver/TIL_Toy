@@ -33,6 +33,7 @@ function solution(s) {
   return result;
 }
 
+/*
 function solution(s) {
   let result = [-1, -1, -1, 2]; // 결과값
   let basket = []; // for문을 통해 s의 요소를 하나씩 담을 배열
@@ -50,3 +51,4 @@ function solution(s) {
 
   return result;
 }
+*/
