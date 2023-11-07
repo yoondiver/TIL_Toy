@@ -53,6 +53,7 @@ function solution(s) {
 }
 */
 
+/*
 function solution(s) {
   const hash = {};
 
@@ -62,3 +63,4 @@ function solution(s) {
     return result;
   });
 }
+*/
