@@ -26,6 +26,6 @@ array	commands	return
 */
 
 function solution(array, commands) {
-  var answer = [];
+  const answer = [];
   return answer;
 }
