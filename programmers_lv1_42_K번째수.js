@@ -29,7 +29,7 @@ function solution(array, commands) {
   const answer = [];
 
   for (const command of commands) {
-    const i = command;
+    const [i, j, k] = command;
     answer.pust;
   }
 
