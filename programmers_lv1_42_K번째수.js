@@ -28,5 +28,9 @@ array	commands	return
 function solution(array, commands) {
   const answer = [];
 
+  for (const command of commands) {
+    answer.pust;
+  }
+
   return answer;
 }
