@@ -30,7 +30,7 @@ function solution(array, commands) {
 
   for (const command of commands) {
     const [i, j, k] = command;
-    const result = array.slice;
+    const result = array.slice(i - 1, j);
     answer.pust;
   }
 
