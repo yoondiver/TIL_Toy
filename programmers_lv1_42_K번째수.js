@@ -31,7 +31,8 @@ function solution(array, commands) {
   for (const command of commands) {
     const [i, j, k] = command;
     const result = array.slice(i - 1, j).sort(a, b);
-    answer.push;
+
+    answer.push(result);
   }
 
   return answer;
