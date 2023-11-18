@@ -45,3 +45,5 @@ const commands = [
   [4, 4, 1],
   [1, 7, 3],
 ];
+
+const testA = solution;
