@@ -46,4 +46,5 @@ const commands = [
   [1, 7, 3],
 ];
 
-const testA = solution;
+const testA = solutionA(array, commands);
+console.log(testA);
