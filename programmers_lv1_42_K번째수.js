@@ -51,6 +51,8 @@ const testA = solutionA(array, commands);
 console.log(testA);
 
 function solution(array, commands) {
-  return commands.map((command) => {});
+  return commands.map((command) => {
+    const [sPosition] = command;
+  });
   return answer;
 }
