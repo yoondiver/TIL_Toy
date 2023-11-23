@@ -54,5 +54,5 @@ function solution(array, commands) {
   return commands.map((command) => {
     const [sPosition, ePosition, position] = command;
   });
-  return answer;
+  return newArray;
 }
