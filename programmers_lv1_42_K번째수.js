@@ -53,7 +53,7 @@ console.log(testA);
 function solution(array, commands) {
   return commands.map((command) => {
     const [sPosition, ePosition, position] = command;
-    const newArray = array.filter(value);
+    const newArray = array.filter((value) => fIndex);
   });
   return newArray;
 }
