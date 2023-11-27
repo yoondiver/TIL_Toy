@@ -55,7 +55,7 @@ function solution(array, commands) {
     const [sPosition, ePosition, position] = command;
     const newArray = array
       .filter((value) => fIndex >= sPosition - 1 && fIndex <= ePosition - 1)
-      .sort(a,b)=>(a - b);
+      .sort(a,b)=>a - b;
   });
   return newArray;
 }
