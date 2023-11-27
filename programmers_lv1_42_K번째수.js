@@ -56,6 +56,7 @@ function solution(array, commands) {
     const newArray = array
       .filter((value) => fIndex >= sPosition - 1 && fIndex <= ePosition - 1)
       .sort((a, b) => a - b);
+
     return newArray;
   });
 }
