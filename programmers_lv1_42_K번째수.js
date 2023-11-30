@@ -50,6 +50,7 @@ const commands = [
 const testA = solutionA(array, commands);
 console.log(testA);
 
+/*
 function solution(array, commands) {
   return commands.map((command) => {
     const [sPosition, ePosition, position] = command;
@@ -62,3 +63,4 @@ function solution(array, commands) {
     return newArray[position - 1];
   });
 }
+*/
