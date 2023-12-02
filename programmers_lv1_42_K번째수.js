@@ -66,5 +66,6 @@ function solution(array, commands) {
 */
 
 function solution(array, commands) {
+  let answer = [];
   return answer;
 }
