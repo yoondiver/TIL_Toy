@@ -64,3 +64,7 @@ function solution(array, commands) {
   });
 }
 */
+
+function solution(array, commands) {
+  return answer;
+}
