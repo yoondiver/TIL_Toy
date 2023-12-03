@@ -67,5 +67,8 @@ function solution(array, commands) {
 
 function solution(array, commands) {
   let answer = [];
+  for (let i = 0; i < commands.length; i++) {
+    answer.push;
+  }
   return answer;
 }
