@@ -69,7 +69,7 @@ function solution(array, commands) {
   let answer = [];
   for (let i = 0; i < commands.length; i++) {
     let eachCommand = commands[i];
-    answer.push(slice.sort);
+    answer.push(slice.sort(a, b));
   }
   return answer;
 }
