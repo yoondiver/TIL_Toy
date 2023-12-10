@@ -55,6 +55,7 @@ function solution(strings, n) {
 }
 */
 
+/*
 function solution(strings, n) {
   // strings 배열
   // n 번째 문자열 비교
@@ -62,3 +63,4 @@ function solution(strings, n) {
     s1[n] === s2[n] ? s1.localeCompare(s2) : s1[n].localeCompare(s2[n])
   );
 }
+*/
