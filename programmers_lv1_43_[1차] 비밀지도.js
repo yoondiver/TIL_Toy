@@ -21,5 +21,5 @@ arr1, arr2는 길이 n인 정수 배열로 주어진다.
 
 function solution(n, arr1, arr2) {
   var answer = [];
-  return arr1.map;
+  return arr1.map(map1, i);
 }
