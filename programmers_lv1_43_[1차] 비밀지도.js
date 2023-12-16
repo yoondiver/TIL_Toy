@@ -23,5 +23,5 @@ function solution(n, arr1, arr2) {
   var answer = [];
   return arr1.map((map1, i) => {
     map1 = map1.toString(2).padStart(n, "0");
-    const map2 = arr2[i].toString(2).padStart
+    const map2 = arr2[i].toString(2).padStart(n,"0")
 }
