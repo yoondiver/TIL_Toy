@@ -25,5 +25,5 @@ function solution(n, arr1, arr2) {
     map1 = map1.toString(2).padStart(n, "0");
     const map2 = arr2[i].toString(2).padStart(n, "0");
 
-    return map1.split
+    return map1.split("").reduce
 }
