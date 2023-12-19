@@ -26,7 +26,7 @@ function solution(n, arr1, arr2) {
     const map2 = arr2[i].toString(2).padStart(n, "0");
 
     return map1.split("").reduce((acc, cur, i) => {
-      return acc + cur;
+      return acc + (cur === 1);
     });
   });
 }
