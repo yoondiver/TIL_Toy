@@ -27,6 +27,6 @@ function solution(n, arr1, arr2) {
 
     return map1.split("").reduce((acc, cur, i) => {
       return acc + (cur === "1" || map2[i]);
-    });
+    }, "");
   });
 }
