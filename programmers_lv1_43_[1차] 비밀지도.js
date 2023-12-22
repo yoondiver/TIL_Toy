@@ -29,4 +29,6 @@ function solution(n, arr1, arr2) {
   });
 }
 
-function solution(n, arr1, arr2) {}
+function solution(n, arr1, arr2) {
+  return answer;
+}
