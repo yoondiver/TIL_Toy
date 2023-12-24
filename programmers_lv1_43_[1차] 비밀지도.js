@@ -33,6 +33,8 @@ function solution(n, arr1, arr2) {
   let answer = [];
   for (let i = 0; i < arr1.length; i++) {
     let str = 0;
+
+    const map1 = 0;
   }
 
   return answer;
