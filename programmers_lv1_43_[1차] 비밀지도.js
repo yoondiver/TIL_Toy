@@ -31,5 +31,9 @@ function solution(n, arr1, arr2) {
 
 function solution(n, arr1, arr2) {
   let answer = [];
+  for (let i = 0; i < arr1.length; i++) {
+    let str = 0;
+  }
+
   return answer;
 }
