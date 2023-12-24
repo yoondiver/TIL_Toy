@@ -35,6 +35,7 @@ function solution(n, arr1, arr2) {
     let str = 0;
 
     const map1 = 0;
+    const map2 = 1;
   }
 
   return answer;
