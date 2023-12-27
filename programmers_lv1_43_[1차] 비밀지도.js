@@ -34,7 +34,7 @@ function solution(n, arr1, arr2) {
   for (let i = 0; i < arr1.length; i++) {
     let str = 0;
 
-    const map1 = arr1[i].toString(2);
+    const map1 = arr1[i].toString(2).padStart(n, "0");
     const map2 = arr2[i];
   }
 
