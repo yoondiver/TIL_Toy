@@ -40,7 +40,7 @@ function solution(n, arr1, arr2) {
     for (let l = 0; l < map1.length; l++) {
       if (map1[l] === "1" || map2[l] === "1") {
         str += "#";
-      }
+      } else {
       answer.push;
     }
   }
