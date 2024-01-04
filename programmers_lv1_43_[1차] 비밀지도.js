@@ -41,7 +41,7 @@ function solution(n, arr1, arr2) {
       if (map1[l] === "1" || map2[l] === "1") {
         str += "#";
       } else {
-        str;
+        str += " ";
       }
       answer.push;
     }
