@@ -43,7 +43,7 @@ function solution(n, arr1, arr2) {
       } else {
         str += " ";
       }
-      answer.push;
+      answer.push(str);
     }
   }
 
