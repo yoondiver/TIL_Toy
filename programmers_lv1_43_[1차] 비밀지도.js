@@ -30,22 +30,20 @@ function solution(n, arr1, arr2) {
 }
 
 function solution(n, arr1, arr2) {
-  let answer = [];
-  for (let i = 0; i < arr1.length; i++) {
-    let str = 0;
+  const answer = [];
 
+  for (let i = 0; i < arr1.length; i++) {
+    let str = "";
     const map1 = arr1[i].toString(2).padStart(n, "0");
     const map2 = arr2[i].toString(2).padStart(n, "0");
-
     for (let l = 0; l < map1.length; l++) {
       if (map1[l] === "1" || map2[l] === "1") {
         str += "#";
       } else {
         str += " ";
       }
-      answer.push(str);
     }
+    answer.push(str);
   }
-
   return answer;
 }
