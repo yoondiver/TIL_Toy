@@ -52,4 +52,6 @@ function solution(n, arr1, arr2) {
 
 function solution(n, arr1, arr2) {
   arr1 = arr1.map((el) => el.toString(2).padStart(n, 0).split("")).flat();
+
+  return answer;
 }
