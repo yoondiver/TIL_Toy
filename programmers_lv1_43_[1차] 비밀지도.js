@@ -56,5 +56,6 @@ function solution(n, arr1, arr2) {
 
   const result = [];
 
+  arr1.map((el, i) => {});
   return answer;
 }
