@@ -59,9 +59,11 @@ function solution(n, arr1, arr2) {
   arr1.map((el, i) => {
     result.push(arr1[i] === "0" && arr2[i] === "0" ? " " : "#");
   });
-  const result3 = [];
+  const result2 = [];
 
-  while (result.length !== 0) {}
+  while (result.length !== 0) {
+    let result3 = [];
+  }
 
   return answer;
 }
