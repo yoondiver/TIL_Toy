@@ -61,5 +61,5 @@ function solution(n, arr1, arr2) {
   });
   const result3 = [];
 
-  return answer;
+  while (result.length !== 0) return answer;
 }
