@@ -64,7 +64,9 @@ function solution(n, arr1, arr2) {
   while (result.length !== 0) {
     let result3 = [];
 
-    for (let i = 0; i < n; i++) {}
+    for (let i = 0; i < n; i++) {
+      let temp = result.shift();
+    }
 
     result3.push;
   }
