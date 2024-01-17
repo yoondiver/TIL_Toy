@@ -68,7 +68,7 @@ function solution(n, arr1, arr2) {
       let temp = result.shift();
       result2.push(temp);
 
-      result3.push;
+      result2.push;
     }
     result3.push(result2.join(""));
   }
