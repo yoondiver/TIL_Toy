@@ -70,6 +70,7 @@ function solution(n, arr1, arr2) {
 
       result3.push;
     }
+    result3.push(result2.join(""));
   }
 
   return answer;
