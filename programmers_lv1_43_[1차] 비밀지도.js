@@ -55,23 +55,17 @@ function solution(n, arr1, arr2) {
   arr2 = arr2.map((el) => el.toString(2).padStart(n, 0).split("")).flat();
 
   const result = [];
-
   arr1.map((el, i) => {
     result.push(arr1[i] === "0" && arr2[i] === "0" ? " " : "#");
   });
   const result3 = [];
-
   while (result.length !== 0) {
-    let result3 = [];
-
+    let result2 = [];
     for (let i = 0; i < n; i++) {
       let temp = result.shift();
       result2.push(temp);
-
-      result2.push;
     }
     result3.push(result2.join(""));
   }
-
   return result3;
 }
