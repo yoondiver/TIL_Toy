@@ -58,14 +58,14 @@ function solution(n, arr1, arr2) {
   arr1.map((el, i) => {
     result.push(arr1[i] === "0" && arr2[i] === "0" ? " " : "#");
   });
-  const result3 = [];
+  const result2 = [];
   while (result.length !== 0) {
-    let result2 = [];
+    let result3 = [];
     for (let i = 0; i < n; i++) {
       let temp = result.shift();
-      result2.push(temp);
+      result3.push(temp);
     }
-    result3.push(result2.join(""));
+    result2.push(result3.join(""));
   }
-  return result3;
+  return result2;
 }
