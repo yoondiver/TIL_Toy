@@ -33,7 +33,7 @@ function solution(food) {
   var answer = "";
 
   for (let i = food.length; i > 0; i++) {
-    return;
+    answer.unshift;
   }
 
   return answer;
