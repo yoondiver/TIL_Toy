@@ -28,3 +28,9 @@ food	result
 
 두 선수는 1번 음식 3개, 3번 음식 1개를 먹게 되므로 음식의 배치는 "111303111"입니다.
 */
+
+function solution(food) {
+  var answer = "";
+
+  return answer;
+}
