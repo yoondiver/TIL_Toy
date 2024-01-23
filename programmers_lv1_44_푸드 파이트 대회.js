@@ -30,9 +30,13 @@ food	result
 */
 
 function solution(food) {
-  var answer = "";
+  var answer = [0];
 
-  for (let i = food.length; i > 0; i++) {
+  // 1223330333221
+  // [1, 3, 4, 6]
+
+  // food index 마지막꺼(물 0번) 제외까지만 돌게끔
+  for (let i = food.length; i > 0; i--) {
     answer.unshift(i);
   }
 
