@@ -37,6 +37,8 @@ function solution(food) {
 
   // food index 마지막꺼(물 0번) 제외까지만 돌게끔
   for (let i = food.length; i > 0; i--) {
+    // food 반으로 나누면 각 음식의 반복 수가 됨
+    // [3, 4, 6] -> [1, 2, 3]
     answer.unshift(i);
   }
 
