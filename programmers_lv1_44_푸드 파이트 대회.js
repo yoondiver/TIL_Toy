@@ -40,6 +40,8 @@ function solution(food) {
     // food 반으로 나누면 각 음식의 반복 수가 됨
     // [3, 4, 6] -> [1, 2, 3]
     let reNum = Math.floor(food[i] / 2);
+
+    // i의 수를 j만큼 반복
     answer.unshift(i);
   }
 
