@@ -42,6 +42,7 @@ function solution(food) {
     let reNum = Math.floor(food[i] / 2);
 
     // i의 수를 j만큼 반복
+    for (let j = 0; j < reNum; j++) {}
     answer.unshift(i);
   }
 
