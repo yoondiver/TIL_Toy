@@ -45,9 +45,12 @@ function solution(food) {
     for (let j = 0; j < reNum; j++) {
       // 우측 끝에서부터 넣어주기
       answer.push(i);
+
+      // 좌측 끝에서부터 넣어주기
+      answer.unshift(i);
     }
-    answer.unshift(i);
+    // console.log(answer)
   }
 
-  return answer;
+  return answer.join("");
 }
