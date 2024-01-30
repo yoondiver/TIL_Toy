@@ -30,7 +30,7 @@ food	result
 */
 
 function solution(food) {
-  var answer = [0];
+  let answer = [0];
 
   // 1223330333221
   // [1, 3, 4, 6]
