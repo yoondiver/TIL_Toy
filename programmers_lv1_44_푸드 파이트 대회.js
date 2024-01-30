@@ -44,7 +44,7 @@ function solution(food) {
     // i의 수를 j만큼 반복
     for (let j = 0; j < reNum; j++) {
       // 우측 끝에서부터 넣어주기
-      answer.push;
+      answer.push(i);
     }
     answer.unshift(i);
   }
