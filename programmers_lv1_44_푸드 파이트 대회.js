@@ -54,3 +54,5 @@ function solution(food) {
 
   return answer.join("");
 }
+
+function solution(food) {}
