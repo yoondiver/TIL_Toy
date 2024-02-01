@@ -56,5 +56,6 @@ function solution(food) {
 }
 
 function solution(food) {
+  let res = "";
   return answer;
 }
