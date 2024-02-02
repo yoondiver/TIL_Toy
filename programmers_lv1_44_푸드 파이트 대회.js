@@ -58,7 +58,7 @@ function solution(food) {
 function solution(food) {
   let res = "";
   for (let i = 1; i < food.length; i++) {
-    res;
+    res += String(i);
   }
   return answer;
 }
