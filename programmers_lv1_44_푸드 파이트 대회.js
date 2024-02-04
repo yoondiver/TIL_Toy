@@ -55,6 +55,7 @@ function solution(food) {
   return answer.join("");
 }
 
+/*
 function solution(food) {
   let res = "";
 
@@ -63,3 +64,4 @@ function solution(food) {
   }
   return res + "0" + [...res].reverse().join("");
 }
+*/
