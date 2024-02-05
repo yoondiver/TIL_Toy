@@ -55,7 +55,7 @@ function solution(food) {
   return answer.join("");
 }
 
-/*
+/* 넘나 깰끔
 function solution(food) {
   let res = "";
 
@@ -65,3 +65,7 @@ function solution(food) {
   return res + "0" + [...res].reverse().join("");
 }
 */
+
+function solution(food) {
+  let player1 = [];
+}
