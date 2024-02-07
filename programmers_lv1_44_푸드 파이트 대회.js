@@ -69,4 +69,5 @@ function solution(food) {
 function solution(food) {
   let player1 = [];
   let player2 = [];
+  let repeat = 0;
 }
