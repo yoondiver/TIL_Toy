@@ -71,7 +71,9 @@ function solution(food) {
   let player2 = [];
   let repeat = 0;
   for (let i = 1; i <= food.length; i++) {
-    if (food[i] > 1) {if (food[i] > 1) {
+    if (food[i] > 1) {
+      if (food[i] > 1) {
+      }
     }
   }
 }
