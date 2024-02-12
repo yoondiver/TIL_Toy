@@ -73,6 +73,7 @@ function solution(food) {
   for (let i = 1; i <= food.length; i++) {
     if (food[i] > 1) {
       repeat = Math.floor(food[i] / 2);
+      for (let j = 0; j < repeat; j++)
     }
   }
 }
