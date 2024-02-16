@@ -74,7 +74,7 @@ function solution(food) {
     if (food[i] > 1) {
       repeat = Math.floor(food[i] / 2);
       for (let j = 0; j < repeat; j++) player1.push(i);
-      for (let k = 0; k < repeat; k++)
+      for (let k = 0; k < repeat; k++) player2.unshift(i);
     }
   }
 }
