@@ -77,4 +77,5 @@ function solution(food) {
       for (let k = 0; k < repeat; k++) player2.unshift(i);
     }
   }
+  player1.push(0);
 }
