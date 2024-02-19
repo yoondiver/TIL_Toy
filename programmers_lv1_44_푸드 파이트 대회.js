@@ -66,6 +66,7 @@ function solution(food) {
 }
 */
 
+/*
 function solution(food) {
   let player1 = [];
   let player2 = [];
@@ -81,3 +82,4 @@ function solution(food) {
   player1 = player1.concat(player2);
   return player1.join("");
 }
+*/
