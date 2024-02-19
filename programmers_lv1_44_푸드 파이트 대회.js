@@ -83,3 +83,7 @@ function solution(food) {
   return player1.join("");
 }
 */
+
+function solution(food) {
+  var answer = "";
+}
