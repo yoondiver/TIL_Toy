@@ -79,4 +79,5 @@ function solution(food) {
   }
   player1.push(0);
   player1 = player1.concat(player2);
+  return player1.join("");
 }
