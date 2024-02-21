@@ -90,5 +90,6 @@ function solution(food) {
 
   food.map(f, i)=>{
     f = f % 2
+    for(let j=0;j<f/2;j++){}}
   }
 }
