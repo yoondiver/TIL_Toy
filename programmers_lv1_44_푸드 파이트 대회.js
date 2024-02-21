@@ -88,5 +88,5 @@ function solution(food) {
   var answer = "";
   let arr = [];
 
-  foodmap(f, i);
+  food.map(f, i);
 }
