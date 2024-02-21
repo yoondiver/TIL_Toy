@@ -87,4 +87,6 @@ function solution(food) {
 function solution(food) {
   var answer = "";
   let arr = [];
+
+  foodmap(f, i);
 }
