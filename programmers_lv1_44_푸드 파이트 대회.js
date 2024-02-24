@@ -85,11 +85,11 @@ function solution(food) {
 */
 
 function solution(food) {
-  var answer = '';
-    let arr = [];
+  var answer = "";
+  let arr = [];
 
-    food.map((f,i) => {
-        f = f % 2 == 0 ? f : f -1;
-        for(let j=0;j<f/2;j++){
-  }
+  food.map((f, i) => {
+    f = f % 2 == 0 ? f : f - 1;
+    for (let j = 0; j < f / 2; j++) {}
+  });
 }
