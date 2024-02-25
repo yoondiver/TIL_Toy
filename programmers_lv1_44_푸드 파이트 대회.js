@@ -92,8 +92,6 @@ function solution(food) {
     f = f % 2 == 0 ? f : f - 1;
     for (let j = 0; j < f / 2; j++) {
       arr.push(i);
-        }
-    });
     }
   });
 }
