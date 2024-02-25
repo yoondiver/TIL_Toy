@@ -90,6 +90,10 @@ function solution(food) {
 
   food.map((f, i) => {
     f = f % 2 == 0 ? f : f - 1;
-    for (let j = 0; j < f / 2; j++) {}
+    for (let j = 0; j < f / 2; j++) {
+      arr.push(i);
+        }
+    });
+    }
   });
 }
