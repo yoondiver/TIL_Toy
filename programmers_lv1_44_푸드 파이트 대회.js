@@ -94,4 +94,6 @@ function solution(food) {
       arr.push(i);
     }
   });
+
+  answer = arr.join("") + 0 + arr.reverse().join("");
 }
