@@ -84,6 +84,7 @@ function solution(food) {
 }
 */
 
+/*
 function solution(food) {
   var answer = "";
   let arr = [];
@@ -98,3 +99,4 @@ function solution(food) {
   answer = arr.join("") + 0 + arr.reverse().join("");
   return answer;
 }
+*/
