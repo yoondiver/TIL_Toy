@@ -96,4 +96,5 @@ function solution(food) {
   });
 
   answer = arr.join("") + 0 + arr.reverse().join("");
+  return answer;
 }
