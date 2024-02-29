@@ -30,3 +30,8 @@ numbers	result
 12 = 5 + 7 입니다.
 따라서 [2,5,7,9,12] 를 return 해야 합니다.
 */
+
+function solution(numbers) {
+  var answer = [];
+  return answer;
+}
