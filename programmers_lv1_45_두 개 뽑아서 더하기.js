@@ -33,5 +33,5 @@ numbers	result
 
 function solution(numbers) {
   let newArr = [];
-  return answer;
+  return result;
 }
