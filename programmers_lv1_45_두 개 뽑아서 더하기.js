@@ -32,6 +32,6 @@ numbers	result
 */
 
 function solution(numbers) {
-  var answer = [];
+  let newArr = [];
   return answer;
 }
