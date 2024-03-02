@@ -33,5 +33,9 @@ numbers	result
 
 function solution(numbers) {
   let newArr = [];
+
+  for (let i = 0; i < numbers.length; i++) {
+    return;
+  }
   return result;
 }
