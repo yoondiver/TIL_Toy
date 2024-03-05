@@ -36,7 +36,7 @@ function solution(numbers) {
 
   for (let i = 0; i < numbers.length; i++) {
     for (let j = i + 1; j < numbers.length; j++) {
-      newArr.push;
+      newArr.push(numbers[i]);
       return;
     }
   }
