@@ -40,6 +40,6 @@ function solution(numbers) {
       return;
     }
   }
-  newArr.sort(a, b);
+  newArr.sort((a, b) => a - b);
   return result;
 }
