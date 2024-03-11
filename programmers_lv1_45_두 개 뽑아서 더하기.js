@@ -41,5 +41,6 @@ function solution(numbers) {
     }
   }
   newArr.sort((a, b) => a - b);
+  const result
   return result;
 }
