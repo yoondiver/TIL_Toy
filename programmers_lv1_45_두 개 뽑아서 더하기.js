@@ -33,11 +33,9 @@ numbers	result
 
 function solution(numbers) {
   let newArr = [];
-
   for (let i = 0; i < numbers.length; i++) {
     for (let j = i + 1; j < numbers.length; j++) {
       newArr.push(numbers[i] + numbers[j]);
-      return;
     }
   }
   newArr.sort((a, b) => a - b);
