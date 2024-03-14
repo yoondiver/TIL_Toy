@@ -42,3 +42,9 @@ function solution(numbers) {
   const result = [...new Set(newArr)];
   return result;
 }
+
+
+function solution(numbers) {
+  var answer = [];
+
+  return result
