@@ -43,8 +43,8 @@ function solution(numbers) {
   return result;
 }
 
-
 function solution(numbers) {
   var answer = [];
 
-  return result
+  return result;
+}
