@@ -31,6 +31,7 @@ numbers	result
 따라서 [2,5,7,9,12] 를 return 해야 합니다.
 */
 
+/*
 function solution(numbers) {
   let newArr = [];
   for (let i = 0; i < numbers.length; i++) {
