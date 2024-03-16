@@ -47,5 +47,7 @@ function solution(numbers) {
 function solution(numbers) {
   var answer = [];
 
+  for(let i=0; )
+
   return result;
 }
