@@ -50,7 +50,7 @@ function solution(numbers) {
   for (let i = 0; i < numbers.length - 1; i++) {
     for (let i = 0; i < numbers.length - 1; i++) {
       if (answer.indexOf(numbers[i] + numbers[j]) === -1) {
-        answer.push(numbers);
+        answer.push(numbers[i]);
       }
     }
   }
