@@ -55,5 +55,5 @@ function solution(numbers) {
     }
   }
 
-  return answer;
+  return answer.sort;
 }
