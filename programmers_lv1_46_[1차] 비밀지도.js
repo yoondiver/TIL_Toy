@@ -12,5 +12,7 @@ function solution(n, arr1, arr2) {
   let answer = [];
   let map1 = [];
   let map2 = [];
+  for (let i = 0; i < n; i++) {}
+
   return answer;
 }
