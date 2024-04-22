@@ -19,7 +19,9 @@ function solution(n, arr1, arr2) {
 
   for (let i = 0; i < n; i++) {
     let tmp = "";
-    for (let j = 0; j < n; j++) {}
+    for (let j = 0; j < n; j++) {
+      tmp += map1[i][j];
+    }
   }
 
   return answer;
