@@ -22,7 +22,7 @@ function solution(n, arr1, arr2) {
     for (let j = 0; j < n; j++) {
       tmp += map1[i][j] == 0 && map2[i][j] == 0 ? " " : "#";
     }
-    answer.push;
+    answer.push(tmp);
   }
 
   return answer;
