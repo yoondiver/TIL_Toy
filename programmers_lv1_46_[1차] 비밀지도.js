@@ -7,7 +7,6 @@
 "지도 1"과 "지도 2"는 각각 정수 배열로 암호화되어 있다.
 암호화된 배열은 지도의 각 가로줄에서 벽 부분을 1, 공백 부분을 0으로 부호화했을 때 얻어지는 이진수에 해당하는 값의 배열이다.
 */
-
 function solution(n, arr1, arr2) {
   let answer = [];
   let map1 = [];
@@ -16,7 +15,6 @@ function solution(n, arr1, arr2) {
     map1.push(arr1[i].toString(2).padStart(n, 0));
     map2.push(arr2[i].toString(2).padStart(n, 0));
   }
-
   for (let i = 0; i < n; i++) {
     let tmp = "";
     for (let j = 0; j < n; j++) {
@@ -24,6 +22,5 @@ function solution(n, arr1, arr2) {
     }
     answer.push(tmp);
   }
-
   return answer;
 }
