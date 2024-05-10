@@ -29,5 +29,9 @@ function solution(n, arr1, arr2) {
 }
 
 function solution(n, arr1, arr2) {
-  return arr1.map((v, i) => addZero(n, (v | arr2[i]).toString(2))).replace(/1|0/g, a => +a ? '#' : ' '))
+  return arr1.map((v, i) =>
+    addZero(n, (v | arr2[i]).toString(2)).replace(/1|0/g, (a) =>
+      +a ? "#" : " "
+    )
+  );
 }
