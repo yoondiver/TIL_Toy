@@ -35,3 +35,7 @@ function solution(n, arr1, arr2) {
     )
   );
 }
+
+const addZero{
+  reutrn '0'
+}
