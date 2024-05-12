@@ -36,6 +36,6 @@ function solution(n, arr1, arr2) {
   );
 }
 
-const addZero= (n, s){
+const addZero= (n, s) => {
   reutrn '0'
 }
