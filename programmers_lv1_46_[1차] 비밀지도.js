@@ -35,7 +35,6 @@ function solution(n, arr1, arr2) {
     )
   );
 }
-
 const addZero = (n, s) => {
-  return "0".repeat(n - s.length);
+  return "0".repeat(n - s.length) + s;
 };
