@@ -18,6 +18,7 @@ image6.PNG
 */
 
 function solution(a, b, n) {
-    var answer = 0;
-    return answer;
+  let cola = n;
+  let count = 0;
+  return answer;
 }
