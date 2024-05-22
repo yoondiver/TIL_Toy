@@ -20,9 +20,8 @@ image6.PNG
 function solution(a, b, n) {
   let cola = n;
   let count = 0;
-
   //마트에 준 콜라 묶음
-  let submittedCola = Math;
+  let submittedCola = Math.floor(cola / a);
 
   return answer;
 }
