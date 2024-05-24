@@ -23,7 +23,7 @@ function solution(a, b, n) {
   //마트에 준 콜라 묶음
   let submittedCola = Math.floor(cola / a);
   //마트에 주고 남은 콜라 개수
-  let remainder = cola - submittedCola + a;
+  let remainder = cola - (submittedCola + a);
 
   return answer;
 }
