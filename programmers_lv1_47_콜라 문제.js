@@ -26,5 +26,7 @@ function solution(a, b, n) {
   //마트에 주고 남은 콜라 개수
   let remainder = cola - (submittedCola + a);
 
+  // 마트에서 받을 콜라개수
+
   return count;
 }
