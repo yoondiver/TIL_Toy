@@ -29,5 +29,7 @@ function solution(a, b, n) {
   // 마트에서 받을 콜라개수
   let receivedCola = submittedCola * b;
 
+  while (cola >= a) {}
+
   return count;
 }
