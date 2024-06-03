@@ -30,6 +30,7 @@ function solution(a, b, n) {
   let receivedCola = submittedCola * b;
 
   while (cola >= a) {
+    //마트에 준 콜라 묶음
     submittedCola = Math;
   }
 
