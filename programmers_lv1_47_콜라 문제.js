@@ -31,7 +31,7 @@ function solution(a, b, n) {
 
   while (cola >= a) {
     //마트에 준 콜라 묶음
-    submittedCola = Math;
+    submittedCola = Math.floor;
   }
 
   return count;
