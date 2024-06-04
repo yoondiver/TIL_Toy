@@ -32,6 +32,8 @@ function solution(a, b, n) {
   while (cola >= a) {
     //마트에 준 콜라 묶음
     submittedCola = Math.floor(cola / a); //(1)10
+
+    //마트에 주고 남은 콜라 개수
   }
 
   return count;
