@@ -34,7 +34,7 @@ function solution(a, b, n) {
     submittedCola = Math.floor(cola / a); //(1)10
 
     //마트에 주고 남은 콜라 개수
-    remainder = cola - submittedCola;
+    remainder = cola - submittedCola * a;
   }
 
   return count;
