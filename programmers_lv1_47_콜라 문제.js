@@ -37,6 +37,8 @@ function solution(a, b, n) {
     remainder = cola - submittedCola * a; //(1) 0
 
     //마트에서 받을 콜라 개수
+
+    receivedCola;
   }
 
   return count;
