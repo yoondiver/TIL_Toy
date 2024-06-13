@@ -38,6 +38,8 @@ function solution(a, b, n) {
 
     //마트에서 받을 콜라 개수
     receivedCola = submittedCola * b; // 10
+
+    count;
   }
 
   return count;
