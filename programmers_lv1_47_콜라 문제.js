@@ -40,6 +40,8 @@ function solution(a, b, n) {
     receivedCola = submittedCola * b; // 10
 
     count += receivedCola;
+
+    cola = recei;
   }
 
   return count;
