@@ -41,7 +41,7 @@ function solution(a, b, n) {
 
     count += receivedCola;
 
-    cola = recei;
+    cola = receivedCola;
   }
 
   return count;
