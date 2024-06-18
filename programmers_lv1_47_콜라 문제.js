@@ -41,6 +41,7 @@ function solution(a, b, n) {
 
     count += receivedCola;
 
+    //마트에서 나온 후 갖고 있는 콜라 수
     cola = remainder + receivedCola;
   }
 
