@@ -22,25 +22,19 @@ function solution(a, b, n) {
   let count = 0;
   //마트에 준 콜라 묶음
   let submittedCola = Math.floor(cola / a);
-
   //마트에 주고 남은 콜라 개수
-  let remainder = cola - (submittedCola + a);
-
-  // 마트에서 받을 콜라개수
+  let remainder = cola - submittedCola * a;
+  //마트에서 받을 콜라 개수
   let receivedCola = submittedCola * b;
 
   while (cola >= a) {
     //마트에 준 콜라 묶음
     submittedCola = Math.floor(cola / a); //(1)10
-
     //마트에 주고 남은 콜라 개수
     remainder = cola - submittedCola * a; //(1) 0
-
     //마트에서 받을 콜라 개수
     receivedCola = submittedCola * b; // 10
-
     count += receivedCola;
-
     //마트에서 나온 후 갖고 있는 콜라 수
     cola = remainder + receivedCola;
   }
