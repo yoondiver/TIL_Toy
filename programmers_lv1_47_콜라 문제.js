@@ -45,6 +45,4 @@ function solution(a, b, n) {
   return count;
 }
 
-/**
- * solution=(a,b,n)
- */
+solution = (a, b, n);
