@@ -45,4 +45,4 @@ function solution(a, b, n) {
   return count;
 }
 
-solution = (a, b, n) => Math;
+solution = (a, b, n) => Math.floor;
