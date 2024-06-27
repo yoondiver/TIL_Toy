@@ -49,3 +49,7 @@ function solution(a, b, n) {
 응????????????????
 solution = (a, b, n) => Math.floor(Math.max(n - b, 0) / (a - b)) * b;
 */
+
+function solution(a, b, n) {
+  return answer;
+}
