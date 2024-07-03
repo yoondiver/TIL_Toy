@@ -55,7 +55,7 @@ function solution(a, b, n) {
 
   while (n >= a) {
     answer += parseInt(n / a) * b;
-    n = parseInt(n / a) * b + n;
+    n = parseInt(n / a) * b + (n % a);
   }
 
   return answer;
