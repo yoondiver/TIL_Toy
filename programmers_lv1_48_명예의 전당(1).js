@@ -29,5 +29,7 @@ function solution(k, score) {
   let answer = [];
   let n = [];
 
+  for (let i = 0; i < score.length; i++) {}
+
   return answer;
 }
