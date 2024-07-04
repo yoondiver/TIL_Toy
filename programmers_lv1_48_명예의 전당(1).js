@@ -27,6 +27,7 @@ k	score	result
 
 function solution(k, score) {
   let answer = [];
+  let n = [];
 
   return answer;
 }
