@@ -1,4 +1,5 @@
 function solution(k, score) {
-  var answer = [];
+  let answer = [];
+
   return answer;
 }
