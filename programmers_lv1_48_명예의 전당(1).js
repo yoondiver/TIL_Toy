@@ -31,7 +31,7 @@ function solution(k, score) {
 
   for (let i = 0; i < score.length; i++) {
     (n.length < k)
-      ? (n.push(score[i]),
+      ? (n.push(score[i]),n.sort
   }
 
   return answer;
