@@ -30,7 +30,8 @@ function solution(k, score) {
   let n = [];
 
   for (let i = 0; i < score.length; i++) {
-    ? (n.push(s),
+    (n.length < k)
+      ? (n.push(score[i]),
   }
 
   return answer;
