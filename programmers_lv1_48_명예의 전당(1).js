@@ -34,7 +34,7 @@ function solution(k, score) {
       ? (n.push(score[i]),
         n.sort(function (a, b){
           return b - a;
-        }),answer.push(n)
+        }),answer.push(n[ㅑ])
   }
 
   return answer;
