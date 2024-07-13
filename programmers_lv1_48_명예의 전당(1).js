@@ -32,10 +32,11 @@ function solution(k, score) {
   for (let i = 0; i < score.length; i++) {
     (n.length < k)
       ? (n.push(score[i]),
-        n.sort(function (a, b){
+        n.sort(function (a, b) {
           return b - a;
-        }),answer.push(n[i])
-  }
+        }),
+        answer.push(n[i]))
+      : (n[k - 1])
 
   return answer;
 }
