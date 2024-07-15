@@ -36,7 +36,7 @@ function solution(k, score) {
           return b - a;
         }),
         answer.push(n[i]))
-      : (n[k - 1]>= score[i])
+      : (n[k - 1]>= score[i]? n)
 
   return answer;
 }
