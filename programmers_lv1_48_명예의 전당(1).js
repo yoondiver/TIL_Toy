@@ -38,7 +38,7 @@ function solution(k, score) {
         answer.push(n[i]))
       : (n[k - 1] >= score[i] ? n : n.pop(),
         n.push(score[i]),
-        n.sort(function)}
+        n.sort(function(a,b))}
 
   return answer;
 }
