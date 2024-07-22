@@ -40,7 +40,7 @@ function solution(k, score) {
         n.push(score[i]),
         n.sort(function(a,b){
           return b-a
-        }),answer.psuh
+        }),answer.push
 
   return answer;
 }
