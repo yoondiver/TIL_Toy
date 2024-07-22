@@ -30,7 +30,7 @@ function solution(k, score) {
   let n = [];
 
   for (let i = 0; i < score.length; i++) {
-    (n.length < k)
+    n.length < k
       ? (n.push(score[i]),
         n.sort(function (a, b) {
           return b - a;
@@ -38,9 +38,11 @@ function solution(k, score) {
         answer.push(n[i]))
       : (n[k - 1] >= score[i] ? n : n.pop(),
         n.push(score[i]),
-        n.sort(function(a,b){
-          return b-a;
-        }),answer.push(n[k-1]))
+        n.sort(function (a, b) {
+          return b - a;
+        }),
+        answer.push(n[k - 1]));
+  }
 
   return answer;
 }
