@@ -43,6 +43,5 @@ function solution(k, score) {
         }),
         answer.push(n[k - 1]));
   }
-
   return answer;
 }
