@@ -45,3 +45,7 @@ function solution(k, score) {
   }
   return answer;
 }
+
+function solution(k, score) {
+  const stack = [];
+}
