@@ -50,6 +50,7 @@ function solution(k, score) {
   const stack = [];
 
   return score.reduce((a,c) => {
-    
+    return a
+
   }
 }
