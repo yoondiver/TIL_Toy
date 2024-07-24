@@ -48,4 +48,8 @@ function solution(k, score) {
 
 function solution(k, score) {
   const stack = [];
+
+  return score.reduce((a,c) => {
+    
+  }
 }
