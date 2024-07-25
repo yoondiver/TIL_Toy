@@ -49,11 +49,10 @@ function solution(k, score) {
 function solution(k, score) {
   const stack = [];
 
-  return score.reduce((a,c) => {
-    if(stack.length < k) {
-      stack.push
+  return score.reduce((a, c) => {
+    if (stack.length < k) {
+      stack.push;
     }
-    return a
-
-  }
+    return a;
+  });
 }
