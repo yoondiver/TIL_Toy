@@ -51,7 +51,7 @@ function solution(k, score) {
 
   return score.reduce((a, c) => {
     if (stack.length < k) {
-      stack.push;
+      stack.push(c);
     }
     return a;
   });
