@@ -52,7 +52,7 @@ function solution(k, score) {
   return score.reduce((a, c) => {
     if (stack.length < k) {
       stack.push(c);
-      stack.sort(a + b);
+      stack.sort(a, b);
     }
     return a;
   });
