@@ -55,7 +55,7 @@ function solution(k, score) {
       stack.sort((a, b) => a - b);
       stack.shift();
     }
-    a.push(stack);
+    a.push(stack[0]);
 
     return a;
   });
