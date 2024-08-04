@@ -58,5 +58,5 @@ function solution(k, score) {
     a.push(stack[0]);
 
     return a;
-  }[]);
+  }, []);
 }
