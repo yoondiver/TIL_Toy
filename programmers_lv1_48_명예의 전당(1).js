@@ -46,7 +46,6 @@ function solution(k, score) {
   return answer;
 }
 
-/*
 function solution(k, score) {
   const stack = [];
   return score.reduce((a, c) => {
@@ -62,4 +61,3 @@ function solution(k, score) {
     return a;
   }, []);
 }
-*/
