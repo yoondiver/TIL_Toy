@@ -32,6 +32,6 @@ name	yearning	photo	result
 */
 
 function solution(name, yearning, photo) {
-  var answer = [];
+  const scoreMap = new Map();
   return answer;
 }
