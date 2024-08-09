@@ -32,6 +32,7 @@ name	yearning	photo	result
 */
 
 function solution(name, yearning, photo) {
+  // 인물의 이름과 그리움 점수를 매핑한 해시 맵
   const scoreMap = new Map();
   const scores = [];
 
