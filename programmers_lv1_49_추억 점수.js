@@ -34,5 +34,6 @@ name	yearning	photo	result
 function solution(name, yearning, photo) {
   const scoreMap = new Map();
   const scores = [];
-  return answer;
+
+  return scores;
 }
