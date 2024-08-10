@@ -37,5 +37,7 @@ function solution(name, yearning, photo) {
   // 사진별 추억 점수를 담을 배열
   const scores = [];
 
+  // 인물의 이름과 그리움 점수를 해시 맵에 저장
+
   return scores;
 }
