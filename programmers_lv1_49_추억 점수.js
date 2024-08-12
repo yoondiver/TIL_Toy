@@ -47,7 +47,7 @@ function solution(name, yearning, photo) {
 
   // 인물의 이름과 그리움 점수를 해시 맵에 저장
   for (let i = 0; i < name.length; i++) {
-    scoreMap.set;
+    scoreMap.set(name, yearning);
   }
 
   return scores;
