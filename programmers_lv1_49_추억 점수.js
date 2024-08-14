@@ -50,5 +50,7 @@ function solution(name, yearning, photo) {
     scoreMap.set(name[i], yearning[i]);
   }
 
+  // 사진별 추억 점수 계산
+
   return scores;
 }
