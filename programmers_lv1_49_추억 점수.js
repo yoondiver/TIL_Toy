@@ -51,6 +51,5 @@ function solution(name, yearning, photo) {
   }
 
   // 사진별 추억 점수 계산
-
-  return scores;
+  for (let i = 0; i < photo.length; i++) return scores;
 }
