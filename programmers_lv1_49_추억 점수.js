@@ -54,7 +54,9 @@ function solution(name, yearning, photo) {
   for (let i = 0; i < photo.length; i++) {
     // 각 사진별 추억 점수를 누적할 변수
     let totalScore = 0;
-    scores.push;
+
+    // 사진에 있는 인물들의 그리움 점수 합산
+    for (const person of photo) scores.push;
   }
   return scores;
 }
