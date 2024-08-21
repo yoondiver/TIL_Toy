@@ -58,7 +58,7 @@ function solution(name, yearning, photo) {
     // 사진에 있는 인물들의 그리움 점수 합산
     for (const person of photo[i]) {
       if (scoreMap.has) {
-        totalScore;
+        totalScore += scoreMap;
       }
     }
     scores.push;
