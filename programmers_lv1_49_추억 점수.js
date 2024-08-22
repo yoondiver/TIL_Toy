@@ -61,7 +61,7 @@ function solution(name, yearning, photo) {
         totalScore += scoreMap.get(person);
       }
     }
-    scores.push;
+    scores.push(totalScore);
   }
   return scores;
 }
