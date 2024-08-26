@@ -65,3 +65,7 @@ function solution(name, yearning, photo) {
   }
   return scores;
 }
+
+function solution(name, yearning, photo) {
+  return;
+}
