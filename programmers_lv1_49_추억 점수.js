@@ -67,5 +67,5 @@ function solution(name, yearning, photo) {
 }
 
 function solution(name, yearning, photo) {
-  return photo.map;
+  return photo.map(v);
 }
