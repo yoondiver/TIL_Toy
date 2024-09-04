@@ -74,7 +74,8 @@ function solution(name, yearning, photo) {
 }
 */
 
-
 function solution(name, yearning, photo) {
+  let obj = {};
 
-  let obj ={}
+  return photo.Map;
+}
