@@ -78,7 +78,7 @@ function solution(name, yearning, photo) {
   let obj = {};
 
   for (let i = 0; i < name.length; i++) {
-    obj[name[i]] = yearning;
+    obj[name[i]] = yearning[i];
   }
   return photo.Map((value) => value.map);
 }
