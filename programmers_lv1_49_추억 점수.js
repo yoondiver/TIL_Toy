@@ -81,6 +81,6 @@ function solution(name, yearning, photo) {
     obj[name[i]] = yearning[i];
   }
   return photo.map((value) =>
-    value.map((v) => (obj[v] ? obj[v] : 0).reduce(acc, cur))
+    value.map((v) => (obj[v] ? obj[v] : 0).reduce(acc, cur)=> acc,0)
   );
 }
