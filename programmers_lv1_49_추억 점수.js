@@ -74,6 +74,7 @@ function solution(name, yearning, photo) {
 }
 */
 
+/*
 function solution(name, yearning, photo) {
   let obj = {};
 
@@ -84,3 +85,4 @@ function solution(name, yearning, photo) {
     value.map((v) => (obj[v] ? obj[v] : 0)).reduce((acc, cur) => acc + cur, 0)
   );
 }
+*/
