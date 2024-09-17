@@ -88,5 +88,7 @@ function solution(name, yearning, photo) {
 */
 
 function solution(name, yearning, photo) {
+  let answer = [];
+  let score = {};
   return answer;
 }
