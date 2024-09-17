@@ -86,3 +86,7 @@ function solution(name, yearning, photo) {
   );
 }
 */
+
+function solution(name, yearning, photo) {
+  return answer;
+}
