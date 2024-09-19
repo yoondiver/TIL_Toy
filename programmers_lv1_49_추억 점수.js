@@ -96,7 +96,7 @@ function solution(name, yearning, photo) {
   });
 
   for (let o of photo) {
-    answer.push;
+    answer.push(t);
   }
 
   return answer;
