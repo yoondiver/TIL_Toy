@@ -94,5 +94,10 @@ function solution(name, yearning, photo) {
   name.forEach((a, i) => {
     score[a] = yearning[i];
   });
+
+  for (let o of photo) {
+    answer.push;
+  }
+
   return answer;
 }
