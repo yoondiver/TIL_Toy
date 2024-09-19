@@ -92,7 +92,7 @@ function solution(name, yearning, photo) {
   let score = {};
 
   name.forEach((a, i) => {
-    score[a] = yearning;
+    score[a] = yearning[i];
   });
   return answer;
 }
