@@ -98,7 +98,7 @@ function solution(name, yearning, photo) {
   for (let o of photo) {
     let t = 0;
 
-    o.forEach;
+    o.forEach((a) => score);
     answer.push(t);
   }
 
