@@ -9,6 +9,15 @@
 예를 들어 첫 번째 카드 뭉치에 순서대로 ["i", "drink", "water"], 두 번째 카드 뭉치에 순서대로 ["want", "to"]가 적혀있을 때 ["i", "want", "to", "drink", "water"] 순서의 단어 배열을 만들려고 한다면 첫 번째 카드 뭉치에서 "i"를 사용한 후 두 번째 카드 뭉치에서 "want"와 "to"를 사용하고 첫 번째 카드뭉치에 "drink"와 "water"를 차례대로 사용하면 원하는 순서의 단어 배열을 만들 수 있습니다.
 
 문자열로 이루어진 배열 cards1, cards2와 원하는 단어 배열 goal이 매개변수로 주어질 때, cards1과 cards2에 적힌 단어들로 goal를 만들 있다면 "Yes"를, 만들 수 없다면 "No"를 return하는 solution 함수를 완성해주세요.
+
+제한사항
+1 ≤ cards1의 길이, cards2의 길이 ≤ 10
+1 ≤ cards1[i]의 길이, cards2[i]의 길이 ≤ 10
+cards1과 cards2에는 서로 다른 단어만 존재합니다.
+2 ≤ goal의 길이 ≤ cards1의 길이 + cards2의 길이
+1 ≤ goal[i]의 길이 ≤ 10
+goal의 원소는 cards1과 cards2의 원소들로만 이루어져 있습니다.
+cards1, cards2, goal의 문자열들은 모두 알파벳 소문자로만 이루어져 있습니다.
 */
 
 function solution(cards1, cards2, goal) {
