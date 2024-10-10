@@ -18,6 +18,11 @@ cards1과 cards2에는 서로 다른 단어만 존재합니다.
 1 ≤ goal[i]의 길이 ≤ 10
 goal의 원소는 cards1과 cards2의 원소들로만 이루어져 있습니다.
 cards1, cards2, goal의 문자열들은 모두 알파벳 소문자로만 이루어져 있습니다.
+
+입출력 예
+cards1	cards2	goal	result
+["i", "drink", "water"]	["want", "to"]	["i", "want", "to", "drink", "water"]	"Yes"
+["i", "water", "drink"]	["want", "to"]	["i", "want", "to", "drink", "water"]	"No"
 */
 
 function solution(cards1, cards2, goal) {
