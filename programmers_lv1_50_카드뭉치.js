@@ -36,5 +36,7 @@ cards1에서 "i"를 사용하고 cards2에서 "want"와 "to"를 사용하여 "i 
 
 function solution(cards1, cards2, goal) {
   var answer = "";
+
+  let stack = [];
   return answer;
 }
