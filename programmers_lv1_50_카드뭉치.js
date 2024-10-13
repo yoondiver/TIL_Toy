@@ -38,5 +38,6 @@ function solution(cards1, cards2, goal) {
   var answer = "";
 
   let stack = [];
+  for(let i=0;i<length)
   return answer;
 }
