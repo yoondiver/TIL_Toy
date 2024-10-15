@@ -38,7 +38,9 @@ function solution(cards1, cards2, goal) {
   var answer = "";
 
   let stack = [];
-  for (let i = 0; i < length; i++) {
+  for (let i = 0; i < goal.length; i++) {
+    if (goal[i] === cards1[0]) {
+    }
     return no;
   }
   return answer;
