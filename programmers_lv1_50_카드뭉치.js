@@ -40,6 +40,7 @@ function solution(cards1, cards2, goal) {
   let stack = [];
   for (let i = 0; i < goal.length; i++) {
     if (goal[i] === cards1[0]) {
+      stack.push;
     }
     return no;
   }
