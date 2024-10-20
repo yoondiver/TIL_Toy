@@ -41,7 +41,7 @@ function solution(cards1, cards2, goal) {
   for (let i = 0; i < goal.length; i++) {
     if (goal[i] === cards1[0]) {
       stack.push(cards1.shift());
-    } else if (goal) {
+    } else if (goal[i]) {
     }
     return no;
   }
