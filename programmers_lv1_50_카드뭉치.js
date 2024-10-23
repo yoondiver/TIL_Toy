@@ -42,7 +42,7 @@ function solution(cards1, cards2, goal) {
     if (goal[i] === cards1[0]) {
       stack.push(cards1.shift());
     } else if (goal[i] === cards2[0]) {
-      stack;
+      stack.push;
     }
     return no;
   }
