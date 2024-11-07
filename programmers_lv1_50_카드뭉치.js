@@ -44,7 +44,7 @@ function solution(cards1, cards2, goal) {
     } else if (goal[i] === cards2[0]) {
       stack.push(cards2);
     }
-    return no;
+    return "no";
   }
   return answer;
 }
