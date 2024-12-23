@@ -35,9 +35,8 @@ cards1에서 "i"를 사용하고 cards2에서 "want"와 "to"를 사용하여 "i 
 */
 
 function solution(cards1, cards2, goal) {
-  var answer = "";
-
   let stack = [];
+
   for (let i = 0; i < goal.length; i++) {
     if (goal[i] === cards1[0]) {
       stack.push(cards1.shift());
