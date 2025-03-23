@@ -46,4 +46,6 @@ function solution(cards1, cards2, goal) {
     return "no";
   }
   if (stack.toString()) return "YES";
+
+  return;
 }
